@@ -1,0 +1,742 @@
+2024-08-24 13:01:05.179853,2024-08-24T12:45:37.046466381Z [20240824-12:45:36] [ERROR] libxrdp_force_read: header read error
+2024-08-24 13:01:05.186041,2024-08-24T12:45:37.046470814Z [20240824-12:45:36] [ERROR] Processing [ITU-T T.125] Connect-Initial failed
+2024-08-24 13:01:05.192806,2024-08-24T12:45:37.046474986Z [20240824-12:45:36] [ERROR] [MCS Connection Sequence] receive connection request failed
+2024-08-24 13:01:05.198392,2024-08-24T12:45:37.046479065Z [20240824-12:45:36] [ERROR] xrdp_sec_incoming: xrdp_mcs_incoming failed
+2024-08-24 13:01:05.204493,2024-08-24T12:45:37.046485861Z [20240824-12:45:36] [ERROR] xrdp_rdp_incoming: xrdp_sec_incoming failed
+2024-08-24 13:01:05.210070,2024-08-24T12:45:37.046489926Z [20240824-12:45:36] [ERROR] xrdp_process_main_loop: libxrdp_process_incoming failed
+2024-08-24 13:01:05.216416,2024-08-24T12:45:37.046494199Z [20240824-12:45:36] [ERROR] xrdp_iso_send: trans_write_copy_s failed
+2024-08-24 13:01:05.222451,2024-08-24T12:45:37.046498653Z [20240824-12:45:36] [ERROR] Sending [ITU T.125] DisconnectProviderUltimatum failed
+2024-08-24 13:01:05.228397,2024-08-24T13:01:05.147602398Z [20240824-13:01:04] [INFO ] Socket 12: AF_INET6 connection received from ::ffff:18.193.38.202 port 58316
+2024-08-24 13:02:42.159800,2024-08-24T13:01:05.147633040Z [20240824-13:01:04] [INFO ] Using default X.509 certificate: /etc/xrdp/cert.pem
+2024-08-24 13:02:42.166846,2024-08-24T13:01:05.147639376Z [20240824-13:01:04] [INFO ] Using default X.509 key file: /etc/xrdp/key.pem
+2024-08-24 13:02:42.174958,2024-08-24T13:01:05.147644278Z [20240824-13:01:04] [ERROR] Cannot read private key file /etc/xrdp/key.pem: Permission denied
+2024-08-24 13:02:42.180626,2024-08-24T13:01:05.147648923Z [20240824-13:01:04] [WARN ] Cannot accept TLS connections because certificate or private key file is not readable. certificate file: [/etc/xrdp/cert.pem], private key file: [/etc/xrdp/key.pem]
+2024-08-24 13:02:42.186934,2024-08-24T13:01:05.147653872Z [20240824-13:01:04] [INFO ] Security protocol: configured [RDP], requested [SSL|HYBRID|RDP], selected [RDP]
+2024-08-24 13:02:42.192834,2024-08-24T13:01:05.147658694Z [20240824-13:01:05] [ERROR] libxrdp_force_read: header read error
+2024-08-24 13:02:42.197882,2024-08-24T13:01:05.147686969Z [20240824-13:01:05] [ERROR] Processing [ITU-T T.125] Connect-Initial failed
+2024-08-24 13:02:42.204024,2024-08-24T13:01:05.147692529Z [20240824-13:01:05] [ERROR] [MCS Connection Sequence] receive connection request failed
+2024-08-24 13:02:42.209783,2024-08-24T13:01:05.147696793Z [20240824-13:01:05] [ERROR] xrdp_sec_incoming: xrdp_mcs_incoming failed
+2024-08-24 13:02:42.214939,2024-08-24T13:01:05.147714789Z [20240824-13:01:05] [ERROR] xrdp_rdp_incoming: xrdp_sec_incoming failed
+2024-08-24 13:02:42.219913,2024-08-24T13:01:05.147719539Z [20240824-13:01:05] [ERROR] xrdp_process_main_loop: libxrdp_process_incoming failed
+2024-08-24 13:02:42.225622,2024-08-24T13:01:05.147723790Z [20240824-13:01:05] [ERROR] xrdp_iso_send: trans_write_copy_s failed
+2024-08-24 13:02:42.231317,2024-08-24T13:01:05.147728095Z [20240824-13:01:05] [ERROR] Sending [ITU T.125] DisconnectProviderUltimatum failed
+2024-08-24 13:02:42.237614,2024-08-24T13:02:42.159170670Z [20240824-13:02:41] [INFO ] Socket 12: AF_INET6 connection received from ::ffff:139.99.64.211 port 59677
+2024-08-24 13:16:29.250428,2024-08-24T13:02:42.159206871Z [20240824-13:02:41] [INFO ] Using default X.509 certificate: /etc/xrdp/cert.pem
+2024-08-24 13:16:29.258016,2024-08-24T13:02:42.159213392Z [20240824-13:02:41] [INFO ] Using default X.509 key file: /etc/xrdp/key.pem
+2024-08-24 13:16:29.263548,2024-08-24T13:02:42.159218033Z [20240824-13:02:41] [ERROR] Cannot read private key file /etc/xrdp/key.pem: Permission denied
+2024-08-24 13:16:29.269060,2024-08-24T13:02:42.159222561Z [20240824-13:02:41] [ERROR] libxrdp_force_read: header read error
+2024-08-24 13:16:29.275102,2024-08-24T13:02:42.159252519Z [20240824-13:02:41] [ERROR] [ITU-T X.224] Connection Sequence: CR-TPDU (Connection Request) failed
+2024-08-24 13:16:29.281613,2024-08-24T13:02:42.159259052Z [20240824-13:02:41] [ERROR] xrdp_sec_incoming: xrdp_iso_incoming failed
+2024-08-24 13:16:29.288132,2024-08-24T13:02:42.159264090Z [20240824-13:02:41] [ERROR] xrdp_rdp_incoming: xrdp_sec_incoming failed
+2024-08-24 13:16:29.293283,2024-08-24T13:02:42.159268717Z [20240824-13:02:41] [ERROR] xrdp_process_main_loop: libxrdp_process_incoming failed
+2024-08-24 13:16:29.301535,2024-08-24T13:02:42.159273258Z [20240824-13:02:41] [ERROR] xrdp_iso_send: trans_write_copy_s failed
+2024-08-24 13:16:29.307055,2024-08-24T13:02:42.159277724Z [20240824-13:02:41] [ERROR] Sending [ITU T.125] DisconnectProviderUltimatum failed
+2024-08-24 13:16:29.312994,2024-08-24T13:16:29.249148974Z [20240824-13:16:28] [INFO ] Socket 12: AF_INET6 connection received from ::ffff:18.193.38.202 port 52852
+2024-08-24 13:31:56.352532,2024-08-24T13:16:29.249184749Z [20240824-13:16:28] [INFO ] Using default X.509 certificate: /etc/xrdp/cert.pem
+2024-08-24 13:31:56.360614,2024-08-24T13:16:29.249218735Z [20240824-13:16:28] [INFO ] Using default X.509 key file: /etc/xrdp/key.pem
+2024-08-24 13:31:56.366835,2024-08-24T13:16:29.249224015Z [20240824-13:16:28] [ERROR] Cannot read private key file /etc/xrdp/key.pem: Permission denied
+2024-08-24 13:31:56.372444,2024-08-24T13:16:29.249228655Z [20240824-13:16:28] [WARN ] Cannot accept TLS connections because certificate or private key file is not readable. certificate file: [/etc/xrdp/cert.pem], private key file: [/etc/xrdp/key.pem]
+2024-08-24 13:31:56.377761,2024-08-24T13:16:29.249233991Z [20240824-13:16:28] [INFO ] Security protocol: configured [RDP], requested [SSL|HYBRID|RDP], selected [RDP]
+2024-08-24 13:31:56.384224,2024-08-24T13:16:29.249238715Z [20240824-13:16:28] [ERROR] libxrdp_force_read: header read error
+2024-08-24 13:31:56.391298,2024-08-24T13:16:29.249245754Z [20240824-13:16:28] [ERROR] Processing [ITU-T T.125] Connect-Initial failed
+2024-08-24 13:31:56.397109,2024-08-24T13:16:29.249250228Z [20240824-13:16:28] [ERROR] [MCS Connection Sequence] receive connection request failed
+2024-08-24 13:31:56.402656,2024-08-24T13:16:29.249254834Z [20240824-13:16:28] [ERROR] xrdp_sec_incoming: xrdp_mcs_incoming failed
+2024-08-24 13:31:56.408263,2024-08-24T13:16:29.249259455Z [20240824-13:16:28] [ERROR] xrdp_rdp_incoming: xrdp_sec_incoming failed
+2024-08-24 13:31:56.414218,2024-08-24T13:16:29.249282545Z [20240824-13:16:28] [ERROR] xrdp_process_main_loop: libxrdp_process_incoming failed
+2024-08-24 13:31:56.420414,2024-08-24T13:16:29.249287377Z [20240824-13:16:28] [ERROR] xrdp_iso_send: trans_write_copy_s failed
+2024-08-24 13:31:56.425715,2024-08-24T13:16:29.249291648Z [20240824-13:16:28] [ERROR] Sending [ITU T.125] DisconnectProviderUltimatum failed
+2024-08-24 13:31:56.431629,2024-08-24T13:31:56.351153983Z [20240824-13:31:56] [INFO ] Socket 12: AF_INET6 connection received from ::ffff:18.193.38.202 port 50944
+2024-08-24 13:47:27.453156,2024-08-24T13:31:56.351190026Z [20240824-13:31:56] [INFO ] Using default X.509 certificate: /etc/xrdp/cert.pem
+2024-08-24 13:47:27.460524,2024-08-24T13:31:56.351196425Z [20240824-13:31:56] [INFO ] Using default X.509 key file: /etc/xrdp/key.pem
+2024-08-24 13:47:27.466468,2024-08-24T13:31:56.351201236Z [20240824-13:31:56] [ERROR] Cannot read private key file /etc/xrdp/key.pem: Permission denied
+2024-08-24 13:47:27.472188,2024-08-24T13:31:56.351206378Z [20240824-13:31:56] [WARN ] Cannot accept TLS connections because certificate or private key file is not readable. certificate file: [/etc/xrdp/cert.pem], private key file: [/etc/xrdp/key.pem]
+2024-08-24 13:47:27.477406,2024-08-24T13:31:56.351211390Z [20240824-13:31:56] [INFO ] Security protocol: configured [RDP], requested [SSL|HYBRID|RDP], selected [RDP]
+2024-08-24 13:47:27.484135,2024-08-24T13:31:56.351216290Z [20240824-13:31:56] [ERROR] libxrdp_force_read: header read error
+2024-08-24 13:47:27.490129,2024-08-24T13:31:56.351246948Z [20240824-13:31:56] [ERROR] Processing [ITU-T T.125] Connect-Initial failed
+2024-08-24 13:47:27.497514,2024-08-24T13:31:56.351251532Z [20240824-13:31:56] [ERROR] [MCS Connection Sequence] receive connection request failed
+2024-08-24 13:47:27.502941,2024-08-24T13:31:56.351256305Z [20240824-13:31:56] [ERROR] xrdp_sec_incoming: xrdp_mcs_incoming failed
+2024-08-24 13:47:27.508107,2024-08-24T13:31:56.351260778Z [20240824-13:31:56] [ERROR] xrdp_rdp_incoming: xrdp_sec_incoming failed
+2024-08-24 13:47:27.513490,2024-08-24T13:31:56.351265386Z [20240824-13:31:56] [ERROR] xrdp_process_main_loop: libxrdp_process_incoming failed
+2024-08-24 13:47:27.519853,2024-08-24T13:31:56.351269999Z [20240824-13:31:56] [ERROR] xrdp_iso_send: trans_write_copy_s failed
+2024-08-24 13:47:27.525356,2024-08-24T13:31:56.351274418Z [20240824-13:31:56] [ERROR] Sending [ITU T.125] DisconnectProviderUltimatum failed
+2024-08-24 13:47:27.531124,2024-08-24T13:47:27.451737279Z [20240824-13:47:26] [INFO ] Socket 12: AF_INET6 connection received from ::ffff:18.193.38.202 port 59139
+2024-08-24 13:58:13.523097,2024-08-24T13:47:27.451774026Z [20240824-13:47:26] [INFO ] Using default X.509 certificate: /etc/xrdp/cert.pem
+2024-08-24 13:58:13.530597,2024-08-24T13:47:27.451780105Z [20240824-13:47:26] [INFO ] Using default X.509 key file: /etc/xrdp/key.pem
+2024-08-24 13:58:13.536619,2024-08-24T13:47:27.451784994Z [20240824-13:47:26] [ERROR] Cannot read private key file /etc/xrdp/key.pem: Permission denied
+2024-08-24 13:58:13.542319,2024-08-24T13:47:27.451789689Z [20240824-13:47:26] [WARN ] Cannot accept TLS connections because certificate or private key file is not readable. certificate file: [/etc/xrdp/cert.pem], private key file: [/etc/xrdp/key.pem]
+2024-08-24 13:58:13.549114,2024-08-24T13:47:27.451795092Z [20240824-13:47:26] [INFO ] Security protocol: configured [RDP], requested [SSL|HYBRID|RDP], selected [RDP]
+2024-08-24 13:58:13.554602,2024-08-24T13:47:27.451799831Z [20240824-13:47:26] [ERROR] libxrdp_force_read: header read error
+2024-08-24 13:58:13.560633,2024-08-24T13:47:27.451804140Z [20240824-13:47:26] [ERROR] Processing [ITU-T T.125] Connect-Initial failed
+2024-08-24 13:58:13.565894,2024-08-24T13:47:27.451808409Z [20240824-13:47:26] [ERROR] [MCS Connection Sequence] receive connection request failed
+2024-08-24 13:58:13.571135,2024-08-24T13:47:27.451838559Z [20240824-13:47:26] [ERROR] xrdp_sec_incoming: xrdp_mcs_incoming failed
+2024-08-24 13:58:13.577789,2024-08-24T13:47:27.451843946Z [20240824-13:47:26] [ERROR] xrdp_rdp_incoming: xrdp_sec_incoming failed
+2024-08-24 13:58:13.583249,2024-08-24T13:47:27.451848831Z [20240824-13:47:26] [ERROR] xrdp_process_main_loop: libxrdp_process_incoming failed
+2024-08-24 13:58:13.589336,2024-08-24T13:47:27.451853154Z [20240824-13:47:26] [ERROR] xrdp_iso_send: trans_write_copy_s failed
+2024-08-24 13:58:13.594973,2024-08-24T13:47:27.451857470Z [20240824-13:47:26] [ERROR] Sending [ITU T.125] DisconnectProviderUltimatum failed
+2024-08-24 13:58:13.601033,2024-08-24T13:58:13.521948181Z [20240824-13:58:12] [INFO ] Socket 12: AF_INET6 connection received from ::ffff:137.184.104.100 port 49016
+2024-08-24 13:58:17.523476,2024-08-24T13:58:13.521983422Z [20240824-13:58:12] [INFO ] Using default X.509 certificate: /etc/xrdp/cert.pem
+2024-08-24 13:58:17.530793,2024-08-24T13:58:13.521989659Z [20240824-13:58:12] [INFO ] Using default X.509 key file: /etc/xrdp/key.pem
+2024-08-24 13:58:17.537047,2024-08-24T13:58:13.521994209Z [20240824-13:58:12] [ERROR] Cannot read private key file /etc/xrdp/key.pem: Permission denied
+2024-08-24 13:58:17.542613,2024-08-24T13:58:13.521998818Z [20240824-13:58:12] [WARN ] Cannot accept TLS connections because certificate or private key file is not readable. certificate file: [/etc/xrdp/cert.pem], private key file: [/etc/xrdp/key.pem]
+2024-08-24 13:58:17.549077,2024-08-24T13:58:13.522003607Z [20240824-13:58:12] [INFO ] Security protocol: configured [RDP], requested [HYBRID|RDP], selected [RDP]
+2024-08-24 13:58:17.557038,2024-08-24T13:58:13.522008368Z [20240824-13:58:13] [INFO ] Connected client computer name: prod-boron-nyc1
+2024-08-24 13:58:17.562918,2024-08-24T13:58:13.522012854Z [20240824-13:58:13] [INFO ] xrdp_load_keyboard_layout: Keyboard information sent by the RDP client, keyboard_type:[0x04], keyboard_subtype:[0x00], keylayout:[0x00000409]
+2024-08-24 13:58:17.568141,2024-08-24T13:58:13.522017386Z [20240824-13:58:13] [INFO ] xrdp_load_keyboard_layout: model [] variant [] layout [us] options []
+2024-08-24 13:58:17.573185,2024-08-24T13:58:13.522021706Z [20240824-13:58:13] [INFO ] Non-TLS connection established from ::ffff:137.184.104.100 port 49016: with security level : high
+2024-08-24 13:58:17.578476,2024-08-24T13:58:17.522236230Z [20240824-13:58:17] [INFO ] Socket 12: AF_INET6 connection received from ::ffff:134.122.114.253 port 52180
+2024-08-24 13:58:18.523547,2024-08-24T13:58:17.522305245Z [20240824-13:58:17] [INFO ] Using default X.509 certificate: /etc/xrdp/cert.pem
+2024-08-24 13:58:18.530657,2024-08-24T13:58:17.522312474Z [20240824-13:58:17] [INFO ] Using default X.509 key file: /etc/xrdp/key.pem
+2024-08-24 13:58:18.536292,2024-08-24T13:58:17.522317570Z [20240824-13:58:17] [ERROR] Cannot read private key file /etc/xrdp/key.pem: Permission denied
+2024-08-24 13:58:18.543632,2024-08-24T13:58:17.522322228Z [20240824-13:58:17] [WARN ] Cannot accept TLS connections because certificate or private key file is not readable. certificate file: [/etc/xrdp/cert.pem], private key file: [/etc/xrdp/key.pem]
+2024-08-24 13:58:18.549206,2024-08-24T13:58:17.522327050Z [20240824-13:58:17] [INFO ] Security protocol: configured [RDP], requested [SSL|RDP], selected [RDP]
+2024-08-24 13:58:18.554395,2024-08-24T13:58:17.522331490Z [20240824-13:58:17] [INFO ] Connected client computer name: rdpscan
+2024-08-24 13:58:18.559943,2024-08-24T13:58:17.522335825Z [20240824-13:58:17] [WARN ] Client requested 255 bpp color depth, but the server configuration is limited to 32 bpp. Downgrading the color depth to 32 bits-per-pixel.
+2024-08-24 13:58:18.566700,2024-08-24T13:58:18.522704695Z [20240824-13:58:17] [INFO ] xrdp_load_keyboard_layout: Keyboard information sent by the RDP client, keyboard_type:[0x04], keyboard_subtype:[0x00], keylayout:[0x00000409]
+2024-08-24 13:58:19.527572,2024-08-24T13:58:18.522734884Z [20240824-13:58:17] [INFO ] xrdp_load_keyboard_layout: model [] variant [] layout [us] options []
+2024-08-24 13:58:19.535506,2024-08-24T13:58:18.522741410Z [20240824-13:58:17] [INFO ] Non-TLS connection established from ::ffff:134.122.114.253 port 52180: with security level : high
+2024-08-24 13:58:19.541401,2024-08-24T13:58:19.526257725Z [20240824-13:58:18] [INFO ] xrdp_caps_process_pointer: client supports new(color) cursor
+2024-08-24 13:58:20.527944,2024-08-24T13:58:19.526318208Z [20240824-13:58:19] [WARN ] Dynamic Virtual Channel named 'drdynvc' not found, channel not initialized
+2024-08-24 13:58:20.535648,2024-08-24T13:58:19.526326195Z [20240824-13:58:19] [INFO ] Loading keymap file /etc/xrdp/km-00000409.ini
+2024-08-24 13:58:20.541129,2024-08-24T13:58:19.526331144Z [20240824-13:58:19] [WARN ] local keymap file for 0x00000409 found and doesn't match built in keymap, using local keymap file
+2024-08-24 13:58:20.547507,2024-08-24T13:58:19.526335962Z [20240824-13:58:19] [WARN ] Received a message for the disabled channel MS_T120 (1004)
+2024-08-24 13:58:20.553794,2024-08-24T13:58:19.526340563Z [20240824-13:58:19] [WARN ] Received a message for the disabled channel MS_T120 (1004)
+2024-08-24 13:58:20.559829,2024-08-24T13:58:19.526345573Z [20240824-13:58:19] [WARN ] Received a message for the disabled channel MS_T120 (1004)
+2024-08-24 13:58:20.566791,2024-08-24T13:58:19.526350502Z [20240824-13:58:19] [WARN ] Received a message for the disabled channel MS_T120 (1004)
+2024-08-24 13:58:20.572580,2024-08-24T13:58:19.526354944Z [20240824-13:58:19] [WARN ] Received a message for the disabled channel MS_T120 (1004)
+2024-08-24 13:58:20.578349,2024-08-24T13:58:19.526359293Z [20240824-13:58:19] [WARN ] Received a message for the disabled channel MS_T120 (1004)
+2024-08-24 13:58:20.584207,2024-08-24T13:58:19.526363642Z [20240824-13:58:19] [WARN ] Received a message for the disabled channel MS_T120 (1004)
+2024-08-24 13:58:20.589751,2024-08-24T13:58:19.526367957Z [20240824-13:58:19] [WARN ] Received a message for the disabled channel MS_T120 (1004)
+2024-08-24 13:58:20.595762,2024-08-24T13:58:19.526372400Z [20240824-13:58:19] [WARN ] Received a message for the disabled channel MS_T120 (1004)
+2024-08-24 13:58:20.601427,2024-08-24T13:58:19.526376922Z [20240824-13:58:19] [WARN ] Received a message for the disabled channel MS_T120 (1004)
+2024-08-24 13:58:20.607516,2024-08-24T13:58:20.526912293Z [20240824-13:58:19] [WARN ] Received a message for the disabled channel MS_T120 (1004)
+2024-08-24 13:58:23.528442,2024-08-24T13:58:20.526943130Z [20240824-13:58:19] [WARN ] Received a message for the disabled channel MS_T120 (1004)
+2024-08-24 13:58:23.535905,2024-08-24T13:58:23.527222900Z [20240824-13:58:22] [ERROR] libxrdp_force_read: header read error
+2024-08-24 13:58:27.528911,2024-08-24T13:58:23.527280525Z [20240824-13:58:22] [ERROR] xrdp_mcs_recv: libxrdp_force_read failed
+2024-08-24 13:58:27.536656,2024-08-24T13:58:23.527288008Z [20240824-13:58:22] [ERROR] xrdp_sec_recv: xrdp_mcs_recv failed
+2024-08-24 13:58:27.542973,2024-08-24T13:58:23.527293052Z [20240824-13:58:22] [ERROR] xrdp_rdp_recv: xrdp_sec_recv failed
+2024-08-24 13:58:27.549088,2024-08-24T13:58:23.527297843Z [20240824-13:58:22] [ERROR] libxrdp_process_data: xrdp_rdp_recv failed
+2024-08-24 13:58:27.555157,2024-08-24T13:58:23.527302718Z [20240824-13:58:22] [ERROR] xrdp_process_data_in: xrdp_process_loop failed
+2024-08-24 13:58:27.561462,2024-08-24T13:58:23.527307480Z [20240824-13:58:22] [ERROR] xrdp_iso_send: trans_write_copy_s failed
+2024-08-24 13:58:27.567161,2024-08-24T13:58:23.527333740Z [20240824-13:58:22] [ERROR] Sending [ITU T.125] DisconnectProviderUltimatum failed
+2024-08-24 13:58:27.573369,2024-08-24T13:58:27.527589351Z [20240824-13:58:26] [ERROR] xrdp_iso_send: trans_write_copy_s failed
+2024-08-24 14:03:16.556254,2024-08-24T13:58:27.527697379Z [20240824-13:58:26] [ERROR] Sending [ITU T.125] DisconnectProviderUltimatum failed
+2024-08-24 14:03:16.564193,2024-08-24T14:03:16.554356906Z [20240824-14:03:16] [INFO ] Socket 12: AF_INET6 connection received from ::ffff:18.193.38.202 port 53786
+2024-08-24 14:03:17.556005,2024-08-24T14:03:16.554414734Z [20240824-14:03:16] [INFO ] Using default X.509 certificate: /etc/xrdp/cert.pem
+2024-08-24 14:03:17.559968,2024-08-24T14:03:16.554422642Z [20240824-14:03:16] [INFO ] Using default X.509 key file: /etc/xrdp/key.pem
+2024-08-24 14:03:17.566937,2024-08-24T14:03:16.554427861Z [20240824-14:03:16] [ERROR] Cannot read private key file /etc/xrdp/key.pem: Permission denied
+2024-08-24 14:03:17.573320,2024-08-24T14:03:16.554432699Z [20240824-14:03:16] [WARN ] Cannot accept TLS connections because certificate or private key file is not readable. certificate file: [/etc/xrdp/cert.pem], private key file: [/etc/xrdp/key.pem]
+2024-08-24 14:03:17.578680,2024-08-24T14:03:16.554437708Z [20240824-14:03:16] [INFO ] Security protocol: configured [RDP], requested [SSL|HYBRID|RDP], selected [RDP]
+2024-08-24 14:03:17.583662,2024-08-24T14:03:17.555092095Z [20240824-14:03:16] [ERROR] libxrdp_force_read: header read error
+2024-08-24 14:19:35.659101,2024-08-24T14:03:17.555123375Z [20240824-14:03:16] [ERROR] Processing [ITU-T T.125] Connect-Initial failed
+2024-08-24 14:19:35.667362,2024-08-24T14:03:17.555129770Z [20240824-14:03:16] [ERROR] [MCS Connection Sequence] receive connection request failed
+2024-08-24 14:19:35.673422,2024-08-24T14:03:17.555134505Z [20240824-14:03:16] [ERROR] xrdp_sec_incoming: xrdp_mcs_incoming failed
+2024-08-24 14:19:35.679555,2024-08-24T14:03:17.555139011Z [20240824-14:03:16] [ERROR] xrdp_rdp_incoming: xrdp_sec_incoming failed
+2024-08-24 14:19:35.685202,2024-08-24T14:03:17.555143723Z [20240824-14:03:16] [ERROR] xrdp_process_main_loop: libxrdp_process_incoming failed
+2024-08-24 14:19:35.691332,2024-08-24T14:03:17.555148216Z [20240824-14:03:16] [ERROR] xrdp_iso_send: trans_write_copy_s failed
+2024-08-24 14:19:35.699153,2024-08-24T14:03:17.555152551Z [20240824-14:03:16] [ERROR] Sending [ITU T.125] DisconnectProviderUltimatum failed
+2024-08-24 14:19:35.705591,2024-08-24T14:19:35.657735120Z [20240824-14:19:35] [INFO ] Socket 12: AF_INET6 connection received from ::ffff:18.193.38.202 port 64492
+2024-08-24 14:35:48.761332,2024-08-24T14:19:35.657801483Z [20240824-14:19:35] [INFO ] Using default X.509 certificate: /etc/xrdp/cert.pem
+2024-08-24 14:35:48.769820,2024-08-24T14:19:35.657809397Z [20240824-14:19:35] [INFO ] Using default X.509 key file: /etc/xrdp/key.pem
+2024-08-24 14:35:48.776046,2024-08-24T14:19:35.657814072Z [20240824-14:19:35] [ERROR] Cannot read private key file /etc/xrdp/key.pem: Permission denied
+2024-08-24 14:35:48.781576,2024-08-24T14:19:35.657818635Z [20240824-14:19:35] [WARN ] Cannot accept TLS connections because certificate or private key file is not readable. certificate file: [/etc/xrdp/cert.pem], private key file: [/etc/xrdp/key.pem]
+2024-08-24 14:35:48.787852,2024-08-24T14:19:35.657823560Z [20240824-14:19:35] [INFO ] Security protocol: configured [RDP], requested [SSL|HYBRID|RDP], selected [RDP]
+2024-08-24 14:35:48.794698,2024-08-24T14:19:35.657828123Z [20240824-14:19:35] [ERROR] libxrdp_force_read: header read error
+2024-08-24 14:35:48.801411,2024-08-24T14:19:35.657832337Z [20240824-14:19:35] [ERROR] Processing [ITU-T T.125] Connect-Initial failed
+2024-08-24 14:35:48.808666,2024-08-24T14:19:35.657855181Z [20240824-14:19:35] [ERROR] [MCS Connection Sequence] receive connection request failed
+2024-08-24 14:35:48.814329,2024-08-24T14:19:35.657860267Z [20240824-14:19:35] [ERROR] xrdp_sec_incoming: xrdp_mcs_incoming failed
+2024-08-24 14:35:48.819712,2024-08-24T14:19:35.657864541Z [20240824-14:19:35] [ERROR] xrdp_rdp_incoming: xrdp_sec_incoming failed
+2024-08-24 14:35:48.826616,2024-08-24T14:19:35.657868877Z [20240824-14:19:35] [ERROR] xrdp_process_main_loop: libxrdp_process_incoming failed
+2024-08-24 14:35:48.832271,2024-08-24T14:19:35.657873226Z [20240824-14:19:35] [ERROR] xrdp_iso_send: trans_write_copy_s failed
+2024-08-24 14:35:48.837418,2024-08-24T14:19:35.657877614Z [20240824-14:19:35] [ERROR] Sending [ITU T.125] DisconnectProviderUltimatum failed
+2024-08-24 14:35:48.843342,2024-08-24T14:35:48.759876496Z [20240824-14:35:48] [INFO ] Socket 12: AF_INET6 connection received from ::ffff:18.193.38.202 port 58681
+2024-08-24 14:52:06.864164,2024-08-24T14:35:48.759911379Z [20240824-14:35:48] [INFO ] Using default X.509 certificate: /etc/xrdp/cert.pem
+2024-08-24 14:52:06.873272,2024-08-24T14:35:48.759917869Z [20240824-14:35:48] [INFO ] Using default X.509 key file: /etc/xrdp/key.pem
+2024-08-24 14:52:06.879104,2024-08-24T14:35:48.759922571Z [20240824-14:35:48] [ERROR] Cannot read private key file /etc/xrdp/key.pem: Permission denied
+2024-08-24 14:52:06.884624,2024-08-24T14:35:48.759927235Z [20240824-14:35:48] [WARN ] Cannot accept TLS connections because certificate or private key file is not readable. certificate file: [/etc/xrdp/cert.pem], private key file: [/etc/xrdp/key.pem]
+2024-08-24 14:52:06.889791,2024-08-24T14:35:48.759932326Z [20240824-14:35:48] [INFO ] Security protocol: configured [RDP], requested [SSL|HYBRID|RDP], selected [RDP]
+2024-08-24 14:52:06.895778,2024-08-24T14:35:48.759936907Z [20240824-14:35:48] [ERROR] libxrdp_force_read: header read error
+2024-08-24 14:52:06.901731,2024-08-24T14:35:48.759977157Z [20240824-14:35:48] [ERROR] Processing [ITU-T T.125] Connect-Initial failed
+2024-08-24 14:52:06.906821,2024-08-24T14:35:48.759981918Z [20240824-14:35:48] [ERROR] [MCS Connection Sequence] receive connection request failed
+2024-08-24 14:52:06.911903,2024-08-24T14:35:48.759986658Z [20240824-14:35:48] [ERROR] xrdp_sec_incoming: xrdp_mcs_incoming failed
+2024-08-24 14:52:06.918751,2024-08-24T14:35:48.759991189Z [20240824-14:35:48] [ERROR] xrdp_rdp_incoming: xrdp_sec_incoming failed
+2024-08-24 14:52:06.924325,2024-08-24T14:35:48.759995978Z [20240824-14:35:48] [ERROR] xrdp_process_main_loop: libxrdp_process_incoming failed
+2024-08-24 14:52:06.930295,2024-08-24T14:35:48.760000493Z [20240824-14:35:48] [ERROR] xrdp_iso_send: trans_write_copy_s failed
+2024-08-24 14:52:06.936231,2024-08-24T14:35:48.760004867Z [20240824-14:35:48] [ERROR] Sending [ITU T.125] DisconnectProviderUltimatum failed
+2024-08-24 14:52:06.941439,2024-08-24T14:52:06.862574455Z [20240824-14:52:06] [INFO ] Socket 12: AF_INET6 connection received from ::ffff:18.193.38.202 port 49832
+2024-08-24 15:02:19.928680,2024-08-24T14:52:06.862638560Z [20240824-14:52:06] [INFO ] Using default X.509 certificate: /etc/xrdp/cert.pem
+2024-08-24 15:02:19.936154,2024-08-24T14:52:06.862645555Z [20240824-14:52:06] [INFO ] Using default X.509 key file: /etc/xrdp/key.pem
+2024-08-24 15:02:19.941535,2024-08-24T14:52:06.862650448Z [20240824-14:52:06] [ERROR] Cannot read private key file /etc/xrdp/key.pem: Permission denied
+2024-08-24 15:02:19.947704,2024-08-24T14:52:06.862655319Z [20240824-14:52:06] [WARN ] Cannot accept TLS connections because certificate or private key file is not readable. certificate file: [/etc/xrdp/cert.pem], private key file: [/etc/xrdp/key.pem]
+2024-08-24 15:02:19.954138,2024-08-24T14:52:06.862660173Z [20240824-14:52:06] [INFO ] Security protocol: configured [RDP], requested [SSL|HYBRID|RDP], selected [RDP]
+2024-08-24 15:02:19.959812,2024-08-24T14:52:06.862683655Z [20240824-14:52:06] [ERROR] libxrdp_force_read: header read error
+2024-08-24 15:02:19.965822,2024-08-24T14:52:06.862688595Z [20240824-14:52:06] [ERROR] Processing [ITU-T T.125] Connect-Initial failed
+2024-08-24 15:02:19.971566,2024-08-24T14:52:06.862692810Z [20240824-14:52:06] [ERROR] [MCS Connection Sequence] receive connection request failed
+2024-08-24 15:02:19.977546,2024-08-24T14:52:06.862697114Z [20240824-14:52:06] [ERROR] xrdp_sec_incoming: xrdp_mcs_incoming failed
+2024-08-24 15:02:19.983097,2024-08-24T14:52:06.862701479Z [20240824-14:52:06] [ERROR] xrdp_rdp_incoming: xrdp_sec_incoming failed
+2024-08-24 15:02:19.989449,2024-08-24T14:52:06.862728122Z [20240824-14:52:06] [ERROR] xrdp_process_main_loop: libxrdp_process_incoming failed
+2024-08-24 15:02:19.995509,2024-08-24T14:52:06.862733905Z [20240824-14:52:06] [ERROR] xrdp_iso_send: trans_write_copy_s failed
+2024-08-24 15:02:20.000793,2024-08-24T14:52:06.862738208Z [20240824-14:52:06] [ERROR] Sending [ITU T.125] DisconnectProviderUltimatum failed
+2024-08-24 15:02:20.007273,2024-08-24T15:02:19.927212357Z [20240824-15:02:19] [INFO ] Socket 12: AF_INET6 connection received from ::ffff:57.152.56.111 port 54222
+2024-08-24 15:02:29.929888,2024-08-24T15:02:19.927248656Z [20240824-15:02:19] [INFO ] Using default X.509 certificate: /etc/xrdp/cert.pem
+2024-08-24 15:02:29.938088,2024-08-24T15:02:19.927255140Z [20240824-15:02:19] [INFO ] Using default X.509 key file: /etc/xrdp/key.pem
+2024-08-24 15:02:29.945202,2024-08-24T15:02:19.927260460Z [20240824-15:02:19] [ERROR] Cannot read private key file /etc/xrdp/key.pem: Permission denied
+2024-08-24 15:02:29.950751,2024-08-24T15:02:29.928282949Z [20240824-15:02:29] [ERROR] libxrdp_force_read: header read error
+2024-08-24 15:08:10.966942,2024-08-24T15:02:29.928344253Z [20240824-15:02:29] [ERROR] [ITU-T X.224] Connection Sequence: CR-TPDU (Connection Request) failed
+2024-08-24 15:08:10.973177,2024-08-24T15:02:29.928352162Z [20240824-15:02:29] [ERROR] xrdp_sec_incoming: xrdp_iso_incoming failed
+2024-08-24 15:08:10.978757,2024-08-24T15:02:29.928356995Z [20240824-15:02:29] [ERROR] xrdp_rdp_incoming: xrdp_sec_incoming failed
+2024-08-24 15:08:10.986513,2024-08-24T15:02:29.928361519Z [20240824-15:02:29] [ERROR] xrdp_process_main_loop: libxrdp_process_incoming failed
+2024-08-24 15:08:10.992628,2024-08-24T15:02:29.928366199Z [20240824-15:02:29] [ERROR] xrdp_iso_send: trans_write_copy_s failed
+2024-08-24 15:08:10.998184,2024-08-24T15:02:29.928370998Z [20240824-15:02:29] [ERROR] Sending [ITU T.125] DisconnectProviderUltimatum failed
+2024-08-24 15:08:11.003663,2024-08-24T15:08:10.966064859Z [20240824-15:08:10] [INFO ] Socket 12: AF_INET6 connection received from ::ffff:18.193.38.202 port 57360
+2024-08-24 15:24:16.073128,2024-08-24T15:08:10.966097792Z [20240824-15:08:10] [INFO ] Using default X.509 certificate: /etc/xrdp/cert.pem
+2024-08-24 15:24:16.081526,2024-08-24T15:08:10.966104180Z [20240824-15:08:10] [INFO ] Using default X.509 key file: /etc/xrdp/key.pem
+2024-08-24 15:24:16.087431,2024-08-24T15:08:10.966109182Z [20240824-15:08:10] [ERROR] Cannot read private key file /etc/xrdp/key.pem: Permission denied
+2024-08-24 15:24:16.093632,2024-08-24T15:08:10.966113945Z [20240824-15:08:10] [WARN ] Cannot accept TLS connections because certificate or private key file is not readable. certificate file: [/etc/xrdp/cert.pem], private key file: [/etc/xrdp/key.pem]
+2024-08-24 15:24:16.100506,2024-08-24T15:08:10.966118792Z [20240824-15:08:10] [INFO ] Security protocol: configured [RDP], requested [SSL|HYBRID|RDP], selected [RDP]
+2024-08-24 15:24:16.105951,2024-08-24T15:08:10.966124073Z [20240824-15:08:10] [ERROR] libxrdp_force_read: header read error
+2024-08-24 15:24:16.112075,2024-08-24T15:08:10.966246746Z [20240824-15:08:10] [ERROR] Processing [ITU-T T.125] Connect-Initial failed
+2024-08-24 15:24:16.118221,2024-08-24T15:08:10.966255228Z [20240824-15:08:10] [ERROR] [MCS Connection Sequence] receive connection request failed
+2024-08-24 15:24:16.123941,2024-08-24T15:08:10.966259746Z [20240824-15:08:10] [ERROR] xrdp_sec_incoming: xrdp_mcs_incoming failed
+2024-08-24 15:24:16.129923,2024-08-24T15:08:10.966263980Z [20240824-15:08:10] [ERROR] xrdp_rdp_incoming: xrdp_sec_incoming failed
+2024-08-24 15:24:16.136169,2024-08-24T15:08:10.966268198Z [20240824-15:08:10] [ERROR] xrdp_process_main_loop: libxrdp_process_incoming failed
+2024-08-24 15:24:16.141931,2024-08-24T15:08:10.966272546Z [20240824-15:08:10] [ERROR] xrdp_iso_send: trans_write_copy_s failed
+2024-08-24 15:24:16.149031,2024-08-24T15:08:10.966342801Z [20240824-15:08:10] [ERROR] Sending [ITU T.125] DisconnectProviderUltimatum failed
+2024-08-24 15:24:16.155231,2024-08-24T15:24:16.071225980Z [20240824-15:24:15] [INFO ] Socket 12: AF_INET6 connection received from ::ffff:18.193.38.202 port 64914
+2024-08-24 15:39:56.176580,2024-08-24T15:24:16.071262214Z [20240824-15:24:15] [INFO ] Using default X.509 certificate: /etc/xrdp/cert.pem
+2024-08-24 15:39:56.184168,2024-08-24T15:24:16.071268726Z [20240824-15:24:15] [INFO ] Using default X.509 key file: /etc/xrdp/key.pem
+2024-08-24 15:39:56.190650,2024-08-24T15:24:16.071273349Z [20240824-15:24:15] [ERROR] Cannot read private key file /etc/xrdp/key.pem: Permission denied
+2024-08-24 15:39:56.196797,2024-08-24T15:24:16.071277963Z [20240824-15:24:15] [WARN ] Cannot accept TLS connections because certificate or private key file is not readable. certificate file: [/etc/xrdp/cert.pem], private key file: [/etc/xrdp/key.pem]
+2024-08-24 15:39:56.203510,2024-08-24T15:24:16.071282900Z [20240824-15:24:15] [INFO ] Security protocol: configured [RDP], requested [SSL|HYBRID|RDP], selected [RDP]
+2024-08-24 15:39:56.210053,2024-08-24T15:24:16.071287749Z [20240824-15:24:15] [ERROR] libxrdp_force_read: header read error
+2024-08-24 15:39:56.217007,2024-08-24T15:24:16.071292667Z [20240824-15:24:15] [ERROR] Processing [ITU-T T.125] Connect-Initial failed
+2024-08-24 15:39:56.222247,2024-08-24T15:24:16.071296947Z [20240824-15:24:15] [ERROR] [MCS Connection Sequence] receive connection request failed
+2024-08-24 15:39:56.227311,2024-08-24T15:24:16.071301343Z [20240824-15:24:15] [ERROR] xrdp_sec_incoming: xrdp_mcs_incoming failed
+2024-08-24 15:39:56.232996,2024-08-24T15:24:16.071328108Z [20240824-15:24:15] [ERROR] xrdp_rdp_incoming: xrdp_sec_incoming failed
+2024-08-24 15:39:56.238538,2024-08-24T15:24:16.071334632Z [20240824-15:24:15] [ERROR] xrdp_process_main_loop: libxrdp_process_incoming failed
+2024-08-24 15:39:56.243939,2024-08-24T15:24:16.071339006Z [20240824-15:24:15] [ERROR] xrdp_iso_send: trans_write_copy_s failed
+2024-08-24 15:39:56.249302,2024-08-24T15:24:16.071343336Z [20240824-15:24:15] [ERROR] Sending [ITU T.125] DisconnectProviderUltimatum failed
+2024-08-24 15:39:56.254793,2024-08-24T15:39:56.175278017Z [20240824-15:39:56] [INFO ] Socket 12: AF_INET6 connection received from ::ffff:18.193.38.202 port 56069
+2024-08-24 15:39:57.177262,2024-08-24T15:39:56.175314689Z [20240824-15:39:56] [INFO ] Using default X.509 certificate: /etc/xrdp/cert.pem
+2024-08-24 15:39:57.184665,2024-08-24T15:39:56.175321069Z [20240824-15:39:56] [INFO ] Using default X.509 key file: /etc/xrdp/key.pem
+2024-08-24 15:39:57.190445,2024-08-24T15:39:56.175325787Z [20240824-15:39:56] [ERROR] Cannot read private key file /etc/xrdp/key.pem: Permission denied
+2024-08-24 15:39:57.196204,2024-08-24T15:39:56.175330681Z [20240824-15:39:56] [WARN ] Cannot accept TLS connections because certificate or private key file is not readable. certificate file: [/etc/xrdp/cert.pem], private key file: [/etc/xrdp/key.pem]
+2024-08-24 15:39:57.201943,2024-08-24T15:39:56.175384575Z [20240824-15:39:56] [INFO ] Security protocol: configured [RDP], requested [SSL|HYBRID|RDP], selected [RDP]
+2024-08-24 15:39:57.207098,2024-08-24T15:39:57.176121755Z [20240824-15:39:56] [ERROR] libxrdp_force_read: header read error
+2024-08-24 15:55:18.279444,2024-08-24T15:39:57.176166849Z [20240824-15:39:56] [ERROR] Processing [ITU-T T.125] Connect-Initial failed
+2024-08-24 15:55:18.288019,2024-08-24T15:39:57.176192881Z [20240824-15:39:56] [ERROR] [MCS Connection Sequence] receive connection request failed
+2024-08-24 15:55:18.294400,2024-08-24T15:39:57.176197954Z [20240824-15:39:56] [ERROR] xrdp_sec_incoming: xrdp_mcs_incoming failed
+2024-08-24 15:55:18.300682,2024-08-24T15:39:57.176202374Z [20240824-15:39:56] [ERROR] xrdp_rdp_incoming: xrdp_sec_incoming failed
+2024-08-24 15:55:18.306141,2024-08-24T15:39:57.176206828Z [20240824-15:39:56] [ERROR] xrdp_process_main_loop: libxrdp_process_incoming failed
+2024-08-24 15:55:18.313489,2024-08-24T15:39:57.176211335Z [20240824-15:39:56] [ERROR] xrdp_iso_send: trans_write_copy_s failed
+2024-08-24 15:55:18.319906,2024-08-24T15:39:57.176215932Z [20240824-15:39:56] [ERROR] Sending [ITU T.125] DisconnectProviderUltimatum failed
+2024-08-24 15:55:18.325409,2024-08-24T15:55:18.278011011Z [20240824-15:55:17] [INFO ] Socket 12: AF_INET6 connection received from ::ffff:18.193.38.202 port 63608
+2024-08-24 16:07:24.357556,2024-08-24T15:55:18.278045482Z [20240824-15:55:17] [INFO ] Using default X.509 certificate: /etc/xrdp/cert.pem
+2024-08-24 16:07:24.365934,2024-08-24T15:55:18.278051633Z [20240824-15:55:17] [INFO ] Using default X.509 key file: /etc/xrdp/key.pem
+2024-08-24 16:07:24.371853,2024-08-24T15:55:18.278056506Z [20240824-15:55:17] [ERROR] Cannot read private key file /etc/xrdp/key.pem: Permission denied
+2024-08-24 16:07:24.377515,2024-08-24T15:55:18.278061181Z [20240824-15:55:17] [WARN ] Cannot accept TLS connections because certificate or private key file is not readable. certificate file: [/etc/xrdp/cert.pem], private key file: [/etc/xrdp/key.pem]
+2024-08-24 16:07:24.383730,2024-08-24T15:55:18.278066103Z [20240824-15:55:17] [INFO ] Security protocol: configured [RDP], requested [SSL|HYBRID|RDP], selected [RDP]
+2024-08-24 16:07:24.389660,2024-08-24T15:55:18.278071006Z [20240824-15:55:17] [ERROR] libxrdp_force_read: header read error
+2024-08-24 16:07:24.396221,2024-08-24T15:55:18.278075493Z [20240824-15:55:17] [ERROR] Processing [ITU-T T.125] Connect-Initial failed
+2024-08-24 16:07:24.401583,2024-08-24T15:55:18.278079967Z [20240824-15:55:17] [ERROR] [MCS Connection Sequence] receive connection request failed
+2024-08-24 16:07:24.407228,2024-08-24T15:55:18.278084251Z [20240824-15:55:17] [ERROR] xrdp_sec_incoming: xrdp_mcs_incoming failed
+2024-08-24 16:07:24.412578,2024-08-24T15:55:18.278115507Z [20240824-15:55:17] [ERROR] xrdp_rdp_incoming: xrdp_sec_incoming failed
+2024-08-24 16:07:24.418534,2024-08-24T15:55:18.278119892Z [20240824-15:55:17] [ERROR] xrdp_process_main_loop: libxrdp_process_incoming failed
+2024-08-24 16:07:24.424884,2024-08-24T15:55:18.278124240Z [20240824-15:55:17] [ERROR] xrdp_iso_send: trans_write_copy_s failed
+2024-08-24 16:07:24.430386,2024-08-24T15:55:18.278128608Z [20240824-15:55:17] [ERROR] Sending [ITU T.125] DisconnectProviderUltimatum failed
+2024-08-24 16:07:24.436256,2024-08-24T16:07:24.356408095Z [20240824-16:07:23] [INFO ] Socket 12: AF_INET6 connection received from ::ffff:4.246.247.235 port 36676
+2024-08-24 16:07:34.358144,2024-08-24T16:07:24.356444940Z [20240824-16:07:23] [INFO ] Using default X.509 certificate: /etc/xrdp/cert.pem
+2024-08-24 16:07:34.365372,2024-08-24T16:07:24.356451311Z [20240824-16:07:23] [INFO ] Using default X.509 key file: /etc/xrdp/key.pem
+2024-08-24 16:07:34.371752,2024-08-24T16:07:24.356502487Z [20240824-16:07:23] [ERROR] Cannot read private key file /etc/xrdp/key.pem: Permission denied
+2024-08-24 16:07:34.378132,2024-08-24T16:07:34.357463367Z [20240824-16:07:33] [ERROR] libxrdp_force_read: Can't read PDU
+2024-08-24 16:10:34.378506,2024-08-24T16:07:34.357572088Z [20240824-16:07:33] [ERROR] [ITU-T X.224] Connection Sequence: CR-TPDU (Connection Request) failed
+2024-08-24 16:10:34.384993,2024-08-24T16:07:34.357581407Z [20240824-16:07:33] [ERROR] xrdp_sec_incoming: xrdp_iso_incoming failed
+2024-08-24 16:10:34.392265,2024-08-24T16:07:34.357586270Z [20240824-16:07:33] [ERROR] xrdp_rdp_incoming: xrdp_sec_incoming failed
+2024-08-24 16:10:34.398730,2024-08-24T16:07:34.357591263Z [20240824-16:07:33] [ERROR] xrdp_process_main_loop: libxrdp_process_incoming failed
+2024-08-24 16:10:34.405191,2024-08-24T16:07:34.357595915Z [20240824-16:07:33] [ERROR] xrdp_iso_send: trans_write_copy_s failed
+2024-08-24 16:10:34.411234,2024-08-24T16:07:34.357600391Z [20240824-16:07:33] [ERROR] Sending [ITU T.125] DisconnectProviderUltimatum failed
+2024-08-24 16:10:34.418113,2024-08-24T16:10:34.377512520Z [20240824-16:10:33] [INFO ] Socket 12: AF_INET6 connection received from ::ffff:18.193.38.202 port 54790
+2024-08-24 16:25:39.476155,2024-08-24T16:10:34.377547212Z [20240824-16:10:33] [INFO ] Using default X.509 certificate: /etc/xrdp/cert.pem
+2024-08-24 16:25:39.483611,2024-08-24T16:10:34.377553578Z [20240824-16:10:33] [INFO ] Using default X.509 key file: /etc/xrdp/key.pem
+2024-08-24 16:25:39.489016,2024-08-24T16:10:34.377558218Z [20240824-16:10:33] [ERROR] Cannot read private key file /etc/xrdp/key.pem: Permission denied
+2024-08-24 16:25:39.494894,2024-08-24T16:10:34.377562922Z [20240824-16:10:33] [WARN ] Cannot accept TLS connections because certificate or private key file is not readable. certificate file: [/etc/xrdp/cert.pem], private key file: [/etc/xrdp/key.pem]
+2024-08-24 16:25:39.501798,2024-08-24T16:10:34.377567992Z [20240824-16:10:33] [INFO ] Security protocol: configured [RDP], requested [SSL|HYBRID|RDP], selected [RDP]
+2024-08-24 16:25:39.509386,2024-08-24T16:10:34.377587868Z [20240824-16:10:33] [ERROR] libxrdp_force_read: header read error
+2024-08-24 16:25:39.515239,2024-08-24T16:10:34.377604824Z [20240824-16:10:33] [ERROR] Processing [ITU-T T.125] Connect-Initial failed
+2024-08-24 16:25:39.520761,2024-08-24T16:10:34.377609366Z [20240824-16:10:33] [ERROR] [MCS Connection Sequence] receive connection request failed
+2024-08-24 16:25:39.526058,2024-08-24T16:10:34.377614005Z [20240824-16:10:33] [ERROR] xrdp_sec_incoming: xrdp_mcs_incoming failed
+2024-08-24 16:25:39.531549,2024-08-24T16:10:34.377618407Z [20240824-16:10:33] [ERROR] xrdp_rdp_incoming: xrdp_sec_incoming failed
+2024-08-24 16:25:39.538793,2024-08-24T16:10:34.377623018Z [20240824-16:10:33] [ERROR] xrdp_process_main_loop: libxrdp_process_incoming failed
+2024-08-24 16:25:39.545332,2024-08-24T16:10:34.377627632Z [20240824-16:10:33] [ERROR] xrdp_iso_send: trans_write_copy_s failed
+2024-08-24 16:25:39.550661,2024-08-24T16:10:34.377632129Z [20240824-16:10:33] [ERROR] Sending [ITU T.125] DisconnectProviderUltimatum failed
+2024-08-24 16:25:39.556643,2024-08-24T16:25:39.474651733Z [20240824-16:25:39] [INFO ] Socket 12: AF_INET6 connection received from ::ffff:18.193.38.202 port 62349
+2024-08-24 16:40:41.578487,2024-08-24T16:25:39.474691329Z [20240824-16:25:39] [INFO ] Using default X.509 certificate: /etc/xrdp/cert.pem
+2024-08-24 16:40:41.587432,2024-08-24T16:25:39.474697693Z [20240824-16:25:39] [INFO ] Using default X.509 key file: /etc/xrdp/key.pem
+2024-08-24 16:40:41.592845,2024-08-24T16:25:39.474702361Z [20240824-16:25:39] [ERROR] Cannot read private key file /etc/xrdp/key.pem: Permission denied
+2024-08-24 16:40:41.598648,2024-08-24T16:25:39.474749840Z [20240824-16:25:39] [WARN ] Cannot accept TLS connections because certificate or private key file is not readable. certificate file: [/etc/xrdp/cert.pem], private key file: [/etc/xrdp/key.pem]
+2024-08-24 16:40:41.604123,2024-08-24T16:25:39.474756874Z [20240824-16:25:39] [INFO ] Security protocol: configured [RDP], requested [SSL|HYBRID|RDP], selected [RDP]
+2024-08-24 16:40:41.609726,2024-08-24T16:25:39.474761327Z [20240824-16:25:39] [ERROR] libxrdp_force_read: header read error
+2024-08-24 16:40:41.615717,2024-08-24T16:25:39.474765512Z [20240824-16:25:39] [ERROR] Processing [ITU-T T.125] Connect-Initial failed
+2024-08-24 16:40:41.621194,2024-08-24T16:25:39.474769719Z [20240824-16:25:39] [ERROR] [MCS Connection Sequence] receive connection request failed
+2024-08-24 16:40:41.627130,2024-08-24T16:25:39.474774026Z [20240824-16:25:39] [ERROR] xrdp_sec_incoming: xrdp_mcs_incoming failed
+2024-08-24 16:40:41.632452,2024-08-24T16:25:39.474778215Z [20240824-16:25:39] [ERROR] xrdp_rdp_incoming: xrdp_sec_incoming failed
+2024-08-24 16:40:41.638168,2024-08-24T16:25:39.474782402Z [20240824-16:25:39] [ERROR] xrdp_process_main_loop: libxrdp_process_incoming failed
+2024-08-24 16:40:41.644202,2024-08-24T16:25:39.474786719Z [20240824-16:25:39] [ERROR] xrdp_iso_send: trans_write_copy_s failed
+2024-08-24 16:40:41.649684,2024-08-24T16:25:39.474790956Z [20240824-16:25:39] [ERROR] Sending [ITU T.125] DisconnectProviderUltimatum failed
+2024-08-24 16:40:41.655728,2024-08-24T16:40:41.577133049Z [20240824-16:40:40] [INFO ] Socket 12: AF_INET6 connection received from ::ffff:18.193.38.202 port 53521
+2024-08-24 16:55:55.675529,2024-08-24T16:40:41.577168996Z [20240824-16:40:40] [INFO ] Using default X.509 certificate: /etc/xrdp/cert.pem
+2024-08-24 16:55:55.683205,2024-08-24T16:40:41.577174795Z [20240824-16:40:40] [INFO ] Using default X.509 key file: /etc/xrdp/key.pem
+2024-08-24 16:55:55.690728,2024-08-24T16:40:41.577179722Z [20240824-16:40:40] [ERROR] Cannot read private key file /etc/xrdp/key.pem: Permission denied
+2024-08-24 16:55:55.696230,2024-08-24T16:40:41.577184525Z [20240824-16:40:40] [WARN ] Cannot accept TLS connections because certificate or private key file is not readable. certificate file: [/etc/xrdp/cert.pem], private key file: [/etc/xrdp/key.pem]
+2024-08-24 16:55:55.701186,2024-08-24T16:40:41.577189491Z [20240824-16:40:40] [INFO ] Security protocol: configured [RDP], requested [SSL|HYBRID|RDP], selected [RDP]
+2024-08-24 16:55:55.706996,2024-08-24T16:40:41.577194606Z [20240824-16:40:40] [ERROR] libxrdp_force_read: header read error
+2024-08-24 16:55:55.713298,2024-08-24T16:40:41.577199032Z [20240824-16:40:40] [ERROR] Processing [ITU-T T.125] Connect-Initial failed
+2024-08-24 16:55:55.718588,2024-08-24T16:40:41.577203273Z [20240824-16:40:40] [ERROR] [MCS Connection Sequence] receive connection request failed
+2024-08-24 16:55:55.723697,2024-08-24T16:40:41.577207582Z [20240824-16:40:40] [ERROR] xrdp_sec_incoming: xrdp_mcs_incoming failed
+2024-08-24 16:55:55.728897,2024-08-24T16:40:41.577211902Z [20240824-16:40:40] [ERROR] xrdp_rdp_incoming: xrdp_sec_incoming failed
+2024-08-24 16:55:55.734557,2024-08-24T16:40:41.577216255Z [20240824-16:40:40] [ERROR] xrdp_process_main_loop: libxrdp_process_incoming failed
+2024-08-24 16:55:55.740734,2024-08-24T16:40:41.577243105Z [20240824-16:40:40] [ERROR] xrdp_iso_send: trans_write_copy_s failed
+2024-08-24 16:55:55.746432,2024-08-24T16:40:41.577247789Z [20240824-16:40:40] [ERROR] Sending [ITU T.125] DisconnectProviderUltimatum failed
+2024-08-24 16:55:55.752072,2024-08-24T16:55:55.673952564Z [20240824-16:55:54] [INFO ] Socket 12: AF_INET6 connection received from ::ffff:18.193.38.202 port 61095
+2024-08-24 17:11:25.775934,2024-08-24T16:55:55.674031059Z [20240824-16:55:54] [INFO ] Using default X.509 certificate: /etc/xrdp/cert.pem
+2024-08-24 17:11:25.784296,2024-08-24T16:55:55.674038636Z [20240824-16:55:54] [INFO ] Using default X.509 key file: /etc/xrdp/key.pem
+2024-08-24 17:11:25.795004,2024-08-24T16:55:55.674043066Z [20240824-16:55:54] [ERROR] Cannot read private key file /etc/xrdp/key.pem: Permission denied
+2024-08-24 17:11:25.800438,2024-08-24T16:55:55.674047559Z [20240824-16:55:54] [WARN ] Cannot accept TLS connections because certificate or private key file is not readable. certificate file: [/etc/xrdp/cert.pem], private key file: [/etc/xrdp/key.pem]
+2024-08-24 17:11:25.807292,2024-08-24T16:55:55.674052261Z [20240824-16:55:54] [INFO ] Security protocol: configured [RDP], requested [SSL|HYBRID|RDP], selected [RDP]
+2024-08-24 17:11:25.813168,2024-08-24T16:55:55.674056564Z [20240824-16:55:54] [ERROR] libxrdp_force_read: header read error
+2024-08-24 17:11:25.818805,2024-08-24T16:55:55.674061012Z [20240824-16:55:54] [ERROR] Processing [ITU-T T.125] Connect-Initial failed
+2024-08-24 17:11:25.824237,2024-08-24T16:55:55.674065285Z [20240824-16:55:54] [ERROR] [MCS Connection Sequence] receive connection request failed
+2024-08-24 17:11:25.829781,2024-08-24T16:55:55.674069979Z [20240824-16:55:54] [ERROR] xrdp_sec_incoming: xrdp_mcs_incoming failed
+2024-08-24 17:11:25.835039,2024-08-24T16:55:55.674074184Z [20240824-16:55:54] [ERROR] xrdp_rdp_incoming: xrdp_sec_incoming failed
+2024-08-24 17:11:25.840995,2024-08-24T16:55:55.674078373Z [20240824-16:55:54] [ERROR] xrdp_process_main_loop: libxrdp_process_incoming failed
+2024-08-24 17:11:25.846421,2024-08-24T16:55:55.674082594Z [20240824-16:55:54] [ERROR] xrdp_iso_send: trans_write_copy_s failed
+2024-08-24 17:11:25.852571,2024-08-24T16:55:55.674086914Z [20240824-16:55:54] [ERROR] Sending [ITU T.125] DisconnectProviderUltimatum failed
+2024-08-24 17:11:25.857583,2024-08-24T17:11:25.774643486Z [20240824-17:11:25] [INFO ] Socket 12: AF_INET6 connection received from ::ffff:18.193.38.202 port 52303
+2024-08-24 17:26:59.876000,2024-08-24T17:11:25.774704230Z [20240824-17:11:25] [INFO ] Using default X.509 certificate: /etc/xrdp/cert.pem
+2024-08-24 17:26:59.883608,2024-08-24T17:11:25.774710672Z [20240824-17:11:25] [INFO ] Using default X.509 key file: /etc/xrdp/key.pem
+2024-08-24 17:26:59.889451,2024-08-24T17:11:25.774715394Z [20240824-17:11:25] [ERROR] Cannot read private key file /etc/xrdp/key.pem: Permission denied
+2024-08-24 17:26:59.894931,2024-08-24T17:11:25.774720023Z [20240824-17:11:25] [WARN ] Cannot accept TLS connections because certificate or private key file is not readable. certificate file: [/etc/xrdp/cert.pem], private key file: [/etc/xrdp/key.pem]
+2024-08-24 17:26:59.901199,2024-08-24T17:11:25.774725030Z [20240824-17:11:25] [INFO ] Security protocol: configured [RDP], requested [SSL|HYBRID|RDP], selected [RDP]
+2024-08-24 17:26:59.906670,2024-08-24T17:11:25.774729571Z [20240824-17:11:25] [ERROR] libxrdp_force_read: header read error
+2024-08-24 17:26:59.912447,2024-08-24T17:11:25.774733936Z [20240824-17:11:25] [ERROR] Processing [ITU-T T.125] Connect-Initial failed
+2024-08-24 17:26:59.917937,2024-08-24T17:11:25.774738368Z [20240824-17:11:25] [ERROR] [MCS Connection Sequence] receive connection request failed
+2024-08-24 17:26:59.923424,2024-08-24T17:11:25.774742665Z [20240824-17:11:25] [ERROR] xrdp_sec_incoming: xrdp_mcs_incoming failed
+2024-08-24 17:26:59.929490,2024-08-24T17:11:25.774746839Z [20240824-17:11:25] [ERROR] xrdp_rdp_incoming: xrdp_sec_incoming failed
+2024-08-24 17:26:59.935297,2024-08-24T17:11:25.774751168Z [20240824-17:11:25] [ERROR] xrdp_process_main_loop: libxrdp_process_incoming failed
+2024-08-24 17:26:59.941144,2024-08-24T17:11:25.774755390Z [20240824-17:11:25] [ERROR] xrdp_iso_send: trans_write_copy_s failed
+2024-08-24 17:26:59.946532,2024-08-24T17:11:25.774801776Z [20240824-17:11:25] [ERROR] Sending [ITU T.125] DisconnectProviderUltimatum failed
+2024-08-24 17:26:59.952576,2024-08-24T17:26:59.874541767Z [20240824-17:26:58] [INFO ] Socket 12: AF_INET6 connection received from ::ffff:18.193.38.202 port 59920
+2024-08-24 17:28:50.887726,2024-08-24T17:26:59.874579909Z [20240824-17:26:58] [INFO ] Using default X.509 certificate: /etc/xrdp/cert.pem
+2024-08-24 17:28:50.893733,2024-08-24T17:26:59.874586420Z [20240824-17:26:58] [INFO ] Using default X.509 key file: /etc/xrdp/key.pem
+2024-08-24 17:28:50.899500,2024-08-24T17:26:59.874591414Z [20240824-17:26:58] [ERROR] Cannot read private key file /etc/xrdp/key.pem: Permission denied
+2024-08-24 17:28:50.906719,2024-08-24T17:26:59.874596079Z [20240824-17:26:58] [WARN ] Cannot accept TLS connections because certificate or private key file is not readable. certificate file: [/etc/xrdp/cert.pem], private key file: [/etc/xrdp/key.pem]
+2024-08-24 17:28:50.911975,2024-08-24T17:26:59.874601087Z [20240824-17:26:58] [INFO ] Security protocol: configured [RDP], requested [SSL|HYBRID|RDP], selected [RDP]
+2024-08-24 17:28:50.917472,2024-08-24T17:26:59.874605788Z [20240824-17:26:59] [ERROR] libxrdp_force_read: header read error
+2024-08-24 17:28:50.923210,2024-08-24T17:26:59.874610220Z [20240824-17:26:59] [ERROR] Processing [ITU-T T.125] Connect-Initial failed
+2024-08-24 17:28:50.929213,2024-08-24T17:26:59.874614420Z [20240824-17:26:59] [ERROR] [MCS Connection Sequence] receive connection request failed
+2024-08-24 17:28:50.936533,2024-08-24T17:26:59.874618762Z [20240824-17:26:59] [ERROR] xrdp_sec_incoming: xrdp_mcs_incoming failed
+2024-08-24 17:28:50.941480,2024-08-24T17:26:59.874622989Z [20240824-17:26:59] [ERROR] xrdp_rdp_incoming: xrdp_sec_incoming failed
+2024-08-24 17:28:50.947057,2024-08-24T17:26:59.874627356Z [20240824-17:26:59] [ERROR] xrdp_process_main_loop: libxrdp_process_incoming failed
+2024-08-24 17:28:50.952483,2024-08-24T17:26:59.874631601Z [20240824-17:26:59] [ERROR] xrdp_iso_send: trans_write_copy_s failed
+2024-08-24 17:28:50.958852,2024-08-24T17:26:59.874661173Z [20240824-17:26:59] [ERROR] Sending [ITU T.125] DisconnectProviderUltimatum failed
+2024-08-24 17:28:50.964199,2024-08-24T17:28:50.887094919Z [20240824-17:28:50] [INFO ] Socket 12: AF_INET6 connection received from ::ffff:45.79.160.121 port 42641
+2024-08-24 17:42:22.975693,2024-08-24T17:28:50.887129254Z [20240824-17:28:50] [INFO ] Using default X.509 certificate: /etc/xrdp/cert.pem
+2024-08-24 17:42:22.984239,2024-08-24T17:28:50.887135823Z [20240824-17:28:50] [INFO ] Using default X.509 key file: /etc/xrdp/key.pem
+2024-08-24 17:42:22.989951,2024-08-24T17:28:50.887140663Z [20240824-17:28:50] [ERROR] Cannot read private key file /etc/xrdp/key.pem: Permission denied
+2024-08-24 17:42:22.995960,2024-08-24T17:28:50.887145282Z [20240824-17:28:50] [ERROR] libxrdp_force_read: bad header length 3
+2024-08-24 17:42:23.001781,2024-08-24T17:28:50.887153550Z [20240824-17:28:50] [ERROR] [ITU-T X.224] Connection Sequence: CR-TPDU (Connection Request) failed
+2024-08-24 17:42:23.007607,2024-08-24T17:28:50.887158242Z [20240824-17:28:50] [ERROR] xrdp_sec_incoming: xrdp_iso_incoming failed
+2024-08-24 17:42:23.013222,2024-08-24T17:28:50.887185833Z [20240824-17:28:50] [ERROR] xrdp_rdp_incoming: xrdp_sec_incoming failed
+2024-08-24 17:42:23.019760,2024-08-24T17:28:50.887192375Z [20240824-17:28:50] [ERROR] xrdp_process_main_loop: libxrdp_process_incoming failed
+2024-08-24 17:42:23.025265,2024-08-24T17:42:22.974263376Z [20240824-17:42:22] [INFO ] Socket 12: AF_INET6 connection received from ::ffff:18.193.38.202 port 51166
+2024-08-24 17:57:27.073755,2024-08-24T17:42:22.974325591Z [20240824-17:42:22] [INFO ] Using default X.509 certificate: /etc/xrdp/cert.pem
+2024-08-24 17:57:27.080682,2024-08-24T17:42:22.974351307Z [20240824-17:42:22] [INFO ] Using default X.509 key file: /etc/xrdp/key.pem
+2024-08-24 17:57:27.086173,2024-08-24T17:42:22.974356526Z [20240824-17:42:22] [ERROR] Cannot read private key file /etc/xrdp/key.pem: Permission denied
+2024-08-24 17:57:27.091911,2024-08-24T17:42:22.974361023Z [20240824-17:42:22] [WARN ] Cannot accept TLS connections because certificate or private key file is not readable. certificate file: [/etc/xrdp/cert.pem], private key file: [/etc/xrdp/key.pem]
+2024-08-24 19:08:00.192526,2024-08-24T10:52:28.839545804Z 1.23.216.227 - - [24/Aug/2024:10:52:28 +0000] "POST /cdn-cgi/rum?req_id=67c7602e1bee2d0a HTTP/1.1" 404 1212
+2024-08-24 19:08:00.201677,2024-08-24T10:52:28.839579198Z 1.23.216.227 - - [24/Aug/2024:10:52:28 +0000] "GET /loginpage/images/iitklogo.png HTTP/1.1" 200 132091
+2024-08-24 19:08:00.207640,2024-08-24T11:05:05.926735379Z 1.23.216.227 - - [24/Aug/2024:11:05:05 +0000] "POST /cdn-cgi/rum?req_id=67c7602e1bee2d0a HTTP/1.1" 404 1212
+2024-08-24 19:08:00.214417,2024-08-24T19:08:00.191036968Z 205.210.31.152 - - [24/Aug/2024:19:07:59 +0000] "GET / HTTP/1.1" 302 -
+2024-08-24 19:08:01.192156,2024-08-24T19:08:01.191142230Z 205.210.31.152 - - [24/Aug/2024:19:08:00 +0000] "GET /loginpage/adminlogin.html HTTP/1.1" 200 2680
+2024-08-24 20:41:57.829601,2024-08-24T20:41:57.828574736Z 198.235.24.173 - - [24/Aug/2024:20:41:57 +0000] "GET / HTTP/1.1" 302 -
+2024-08-24 13:30:34.417208,2024-08-24T11:13:15.510702462Z Accepted password 0000 for user root from 47.98.102.140
+2024-08-24 13:30:34.425151,2024-08-24T11:13:15.510737021Z Failed password for root from 47.98.102.140 port 45346 ssh2
+2024-08-24 13:30:34.430756,2024-08-24T11:13:15.510743429Z Connection closed by authenticating user root 47.98.102.140 port 45346 [preauth]
+2024-08-24 13:30:34.436334,2024-08-24T13:30:34.415288237Z Connection closed by 45.79.181.223 port 34496 [preauth]
+2024-08-24 13:30:35.416307,2024-08-24T13:30:35.415695794Z Connection closed by 45.79.181.223 port 34506 [preauth]
+2024-08-24 13:30:36.416830,2024-08-24T13:30:36.415846596Z Connection closed by 45.79.181.223 port 34520 [preauth]
+2024-08-24 20:12:13.942198,2024-08-24T20:12:13.940824924Z kex_exchange_identification: banner line contains invalid characters
+2024-08-25 01:08:55.831529,2024-08-24T20:12:13.940867377Z banner exchange: Connection from 147.185.132.8 port 60872: invalid format
+2024-08-25 01:08:55.839257,2024-08-24T20:12:13.940874270Z kex_exchange_identification: banner line contains invalid characters
+2024-08-25 01:08:55.844641,2024-08-24T20:12:13.940879386Z banner exchange: Connection from 147.185.132.8 port 60884: invalid format
+2024-08-25 01:08:55.850113,2024-08-25T01:08:55.830117123Z kex_exchange_identification: Connection closed by remote host
+2024-08-25 01:25:16.934050,2024-08-25T01:08:55.830155006Z Connection closed by 198.235.24.17 port 56277
+2024-08-25 01:25:16.939875,2024-08-25T01:25:16.933070301Z kex_exchange_identification: banner line contains invalid characters
+2024-08-25 01:31:12.974011,2024-08-25T01:25:16.933112408Z banner exchange: Connection from 45.79.181.223 port 30620: invalid format
+2024-08-25 01:31:12.981996,2024-08-25T01:31:12.972310993Z kex_exchange_identification: read: Connection reset by peer
+2024-08-25 03:30:58.731906,2024-08-25T01:31:12.972373498Z Connection reset by 45.79.115.59 port 51239
+2024-08-25 03:30:58.739434,2024-08-25T03:30:58.730385431Z kex_exchange_identification: Connection closed by remote host
+2024-08-25 05:16:27.404081,2024-08-25T03:30:58.730424703Z Connection closed by 200.7.37.26 port 34860
+2024-08-25 05:16:27.411927,2024-08-25T05:16:27.402801019Z kex_exchange_identification: client sent invalid protocol identifier "MGLNDD_3.110.33.20_2222"
+2024-08-25 06:17:28.795730,2024-08-25T05:16:27.402840945Z banner exchange: Connection from 104.45.224.255 port 38440: invalid format
+2024-08-25 06:17:28.804517,2024-08-25T06:17:28.794234350Z kex_exchange_identification: read: Connection reset by peer
+2024-08-25 06:17:46.797783,2024-08-25T06:17:28.794271442Z Connection reset by 167.94.145.107 port 55214
+2024-08-25 06:17:46.805636,2024-08-25T06:17:46.796377857Z Connection closed by 167.94.145.107 port 55430 [preauth]
+2024-08-25 08:52:16.763667,2024-08-25T08:52:16.762589325Z Invalid user  from 64.62.197.51 port 9153
+2024-08-25 08:52:19.763976,2024-08-25T08:52:19.762896162Z Connection closed by invalid user  64.62.197.51 port 9153 [preauth]
+2024-08-25 09:34:11.031047,2024-08-25T09:34:11.028856601Z kex_exchange_identification: Connection closed by remote host
+2024-08-25 10:30:20.390125,2024-08-25T09:34:11.028892324Z Connection closed by 198.235.24.94 port 53028
+2024-08-25 10:30:20.397891,2024-08-25T10:30:20.388702597Z Invalid user  from 44.220.188.146 port 49468
+2024-08-25 13:12:00.421174,2024-08-25T10:30:20.388771019Z Connection closed by invalid user  44.220.188.146 port 49468 [preauth]
+2024-08-25 13:12:00.428494,2024-08-25T13:12:00.418707000Z Connection closed by 45.79.172.21 port 50804 [preauth]
+2024-08-25 13:12:01.420824,2024-08-25T13:12:01.419458699Z Connection closed by 45.79.172.21 port 50820 [preauth]
+2024-08-25 13:12:02.424777,2024-08-25T13:12:02.423581198Z Connection closed by 45.79.172.21 port 50822 [preauth]
+2024-08-25 18:38:29.519162,2024-08-25T18:38:29.513860694Z kex_exchange_identification: Connection closed by remote host
+2024-08-25 18:38:53.516722,2024-08-25T18:38:29.513899665Z Connection closed by 103.184.194.68 port 65436
+2024-08-25 18:38:53.548493,2024-08-25T18:38:53.516359587Z Protocol major versions differ: 2 vs. 1
+2024-08-25 18:38:54.517260,2024-08-25T18:38:53.516379945Z banner exchange: Connection from 103.184.194.68 port 65451: could not read protocol version
+2024-08-25 18:38:54.543264,2024-08-25T18:38:53.516385614Z Protocol major versions differ: 2 vs. 1
+2024-08-25 18:38:54.561830,2024-08-25T18:38:53.516390287Z banner exchange: Connection from 103.184.194.68 port 62982: could not read protocol version
+2024-08-25 18:38:54.581043,2024-08-25T18:38:54.516649910Z Unable to negotiate with 103.184.194.68 port 62996: no matching host key type found. Their offer: ssh-dss [preauth]
+2024-08-25 18:38:55.517417,2024-08-25T18:38:54.516674493Z Unable to negotiate with 103.184.194.68 port 62947: no matching host key type found. Their offer: ssh-rsa [preauth]
+2024-08-25 18:38:55.525255,2024-08-25T18:38:54.516680946Z Connection closed by 103.184.194.68 port 63001 [preauth]
+2024-08-25 18:38:55.539343,2024-08-25T18:38:54.516710279Z Unable to negotiate with 103.184.194.68 port 63029: no matching host key type found. Their offer: ecdsa-sha2-nistp384 [preauth]
+2024-08-25 18:38:55.548417,2024-08-25T18:38:55.516742715Z Unable to negotiate with 103.184.194.68 port 63036: no matching host key type found. Their offer: ecdsa-sha2-nistp521 [preauth]
+2024-08-25 18:56:49.639996,2024-08-25T18:38:55.516771382Z Connection closed by 103.184.194.68 port 63042 [preauth]
+2024-08-25 18:56:49.647792,2024-08-25T18:56:49.638902349Z Accepted password calvin for user root from 103.184.194.68
+2024-08-25 18:56:50.644052,2024-08-25T18:56:49.638970829Z Failed password for root from 103.184.194.68 port 63037 ssh2
+2024-08-25 18:56:50.650973,2024-08-25T18:56:49.638978483Z Connection closed by authenticating user root 103.184.194.68 port 63037 [preauth]
+2024-08-25 18:56:50.657315,2024-08-25T18:56:50.643075697Z Accepted password root for user root from 103.184.194.68
+2024-08-25 18:56:51.648024,2024-08-25T18:56:50.643129878Z Failed password for root from 103.184.194.68 port 63047 ssh2
+2024-08-25 18:56:51.655499,2024-08-25T18:56:50.643137297Z Connection closed by authenticating user root 103.184.194.68 port 63047 [preauth]
+2024-08-25 18:56:51.665168,2024-08-25T18:56:50.643142617Z Accepted password toor for user root from 103.184.194.68
+2024-08-25 18:56:51.671519,2024-08-25T18:56:50.643147610Z Failed password for root from 103.184.194.68 port 63101 ssh2
+2024-08-25 18:56:51.677132,2024-08-25T18:56:50.643152375Z Connection closed by authenticating user root 103.184.194.68 port 63101 [preauth]
+2024-08-25 18:56:51.683245,2024-08-25T18:56:50.643156992Z Invalid user administrator from 103.184.194.68 port 63051
+2024-08-25 18:56:51.688925,2024-08-25T18:56:50.643161748Z Could not get shadow information for NOUSER
+2024-08-25 18:56:51.695026,2024-08-25T18:56:50.643166113Z Accepted password password for user administrator from 103.184.194.68
+2024-08-25 18:56:51.700578,2024-08-25T18:56:50.643170597Z Failed password for invalid user administrator from 103.184.194.68 port 63051 ssh2
+2024-08-25 18:56:51.706715,2024-08-25T18:56:50.643175052Z Connection closed by invalid user administrator 103.184.194.68 port 63051 [preauth]
+2024-08-25 18:56:51.712597,2024-08-25T18:56:50.643179590Z Invalid user NetLinx from 103.184.194.68 port 63057
+2024-08-25 18:56:51.717982,2024-08-25T18:56:50.643184057Z Could not get shadow information for NOUSER
+2024-08-25 18:56:51.723943,2024-08-25T18:56:50.643188489Z Accepted password password for user NetLinx from 103.184.194.68
+2024-08-25 18:56:51.730367,2024-08-25T18:56:50.643193010Z Failed password for invalid user NetLinx from 103.184.194.68 port 63057 ssh2
+2024-08-25 18:56:51.735932,2024-08-25T18:56:50.643197555Z Connection closed by invalid user NetLinx 103.184.194.68 port 63057 [preauth]
+2024-08-25 18:56:51.742177,2024-08-25T18:56:51.646919369Z Invalid user administrator from 103.184.194.68 port 63071
+2024-08-25 18:56:52.651728,2024-08-25T18:56:51.646948231Z Could not get shadow information for NOUSER
+2024-08-25 18:56:52.658309,2024-08-25T18:56:51.646953872Z Accepted password Amx1234! for user administrator from 103.184.194.68
+2024-08-25 18:56:52.664380,2024-08-25T18:56:51.646959087Z Failed password for invalid user administrator from 103.184.194.68 port 63071 ssh2
+2024-08-25 18:56:52.669541,2024-08-25T18:56:51.646963671Z Connection closed by invalid user administrator 103.184.194.68 port 63071 [preauth]
+2024-08-25 18:56:52.675526,2024-08-25T18:56:51.646998069Z Invalid user amx from 103.184.194.68 port 63079
+2024-08-25 18:56:52.681355,2024-08-25T18:56:51.647002532Z Could not get shadow information for NOUSER
+2024-08-25 18:56:52.687241,2024-08-25T18:56:51.647007073Z Accepted password password for user amx from 103.184.194.68
+2024-08-25 18:56:52.692654,2024-08-25T18:56:51.647011701Z Failed password for invalid user amx from 103.184.194.68 port 63079 ssh2
+2024-08-25 18:56:52.701531,2024-08-25T18:56:51.647016327Z Connection closed by invalid user amx 103.184.194.68 port 63079 [preauth]
+2024-08-25 18:56:52.707739,2024-08-25T18:56:51.647020996Z Invalid user amx from 103.184.194.68 port 63083
+2024-08-25 18:56:52.713077,2024-08-25T18:56:51.647059505Z Could not get shadow information for NOUSER
+2024-08-25 18:56:52.718434,2024-08-25T18:56:51.647064465Z Accepted password Amx1234! for user amx from 103.184.194.68
+2024-08-25 18:56:52.724213,2024-08-25T18:56:51.647068681Z Failed password for invalid user amx from 103.184.194.68 port 63083 ssh2
+2024-08-25 18:56:52.730420,2024-08-25T18:56:51.647072991Z Connection closed by invalid user amx 103.184.194.68 port 63083 [preauth]
+2024-08-25 18:56:52.735831,2024-08-25T18:56:52.650781488Z Invalid user admin from 103.184.194.68 port 63032
+2024-08-25 18:56:53.655269,2024-08-25T18:56:52.650805742Z Could not get shadow information for NOUSER
+2024-08-25 18:56:53.662424,2024-08-25T18:56:52.650811529Z Accepted password 1988 for user admin from 103.184.194.68
+2024-08-25 18:56:53.670995,2024-08-25T18:56:52.650816708Z Failed password for invalid user admin from 103.184.194.68 port 63032 ssh2
+2024-08-25 18:56:53.676629,2024-08-25T18:56:52.650821394Z Connection closed by invalid user admin 103.184.194.68 port 63032 [preauth]
+2024-08-25 18:56:53.681778,2024-08-25T18:56:52.650826084Z Invalid user admin from 103.184.194.68 port 63034
+2024-08-25 18:56:53.687428,2024-08-25T18:56:52.650851033Z Could not get shadow information for NOUSER
+2024-08-25 18:56:53.693290,2024-08-25T18:56:52.650867178Z Accepted password admin for user admin from 103.184.194.68
+2024-08-25 18:56:53.699486,2024-08-25T18:56:52.650871815Z Failed password for invalid user admin from 103.184.194.68 port 63034 ssh2
+2024-08-25 18:56:53.704848,2024-08-25T18:56:52.650876478Z Connection closed by invalid user admin 103.184.194.68 port 63034 [preauth]
+2024-08-25 18:56:53.710193,2024-08-25T18:56:52.650881582Z Invalid user Administrator from 103.184.194.68 port 63036
+2024-08-25 18:56:53.715886,2024-08-25T18:56:52.650886103Z Could not get shadow information for NOUSER
+2024-08-25 18:56:53.721836,2024-08-25T18:56:52.650890727Z Accepted password Vision2 for user Administrator from 103.184.194.68
+2024-08-25 18:56:53.727956,2024-08-25T18:56:52.650895252Z Failed password for invalid user Administrator from 103.184.194.68 port 63036 ssh2
+2024-08-25 18:56:53.734804,2024-08-25T18:56:52.650899617Z Connection closed by invalid user Administrator 103.184.194.68 port 63036 [preauth]
+2024-08-25 18:56:53.740197,2024-08-25T18:56:52.650903969Z Invalid user cisco from 103.184.194.68 port 63038
+2024-08-25 18:56:53.745875,2024-08-25T18:56:52.650908367Z Could not get shadow information for NOUSER
+2024-08-25 18:56:53.753095,2024-08-25T18:56:52.650912639Z Accepted password cisco for user cisco from 103.184.194.68
+2024-08-25 18:56:53.758518,2024-08-25T18:56:52.650916954Z Failed password for invalid user cisco from 103.184.194.68 port 63038 ssh2
+2024-08-25 18:56:53.768829,2024-08-25T18:56:52.650921730Z Connection closed by invalid user cisco 103.184.194.68 port 63038 [preauth]
+2024-08-25 18:56:53.777220,2024-08-25T18:56:53.654279836Z Invalid user c-comatic from 103.184.194.68 port 63040
+2024-08-25 18:56:54.658865,2024-08-25T18:56:53.654308781Z Could not get shadow information for NOUSER
+2024-08-25 18:56:54.665607,2024-08-25T18:56:53.654314754Z Accepted password xrtwk318 for user c-comatic from 103.184.194.68
+2024-08-25 18:56:54.673491,2024-08-25T18:56:53.654347210Z Failed password for invalid user c-comatic from 103.184.194.68 port 63040 ssh2
+2024-08-25 18:56:54.680834,2024-08-25T18:56:53.654352023Z Connection closed by invalid user c-comatic 103.184.194.68 port 63040 [preauth]
+2024-08-25 18:56:54.689258,2024-08-25T18:56:53.654356756Z Accepted password qwasyx21 for user root from 103.184.194.68
+2024-08-25 18:56:54.694893,2024-08-25T18:56:53.654379787Z Failed password for root from 103.184.194.68 port 63042 ssh2
+2024-08-25 18:56:54.700799,2024-08-25T18:56:53.654384974Z Connection closed by authenticating user root 103.184.194.68 port 63042 [preauth]
+2024-08-25 18:56:54.706809,2024-08-25T18:56:53.654389456Z Invalid user admin from 103.184.194.68 port 63044
+2024-08-25 18:56:54.713016,2024-08-25T18:56:53.654393760Z Could not get shadow information for NOUSER
+2024-08-25 18:56:54.718440,2024-08-25T18:56:53.654398037Z Accepted password insecure for user admin from 103.184.194.68
+2024-08-25 18:56:54.723828,2024-08-25T18:56:53.654402395Z Failed password for invalid user admin from 103.184.194.68 port 63044 ssh2
+2024-08-25 18:56:54.730980,2024-08-25T18:56:53.654406834Z Connection closed by invalid user admin 103.184.194.68 port 63044 [preauth]
+2024-08-25 18:56:54.739778,2024-08-25T18:56:54.657934056Z Invalid user pi from 103.184.194.68 port 63046
+2024-08-25 18:56:55.662569,2024-08-25T18:56:54.657964978Z Could not get shadow information for NOUSER
+2024-08-25 18:56:55.670404,2024-08-25T18:56:54.658001524Z Accepted password raspberry for user pi from 103.184.194.68
+2024-08-25 18:56:55.676670,2024-08-25T18:56:54.658008136Z Failed password for invalid user pi from 103.184.194.68 port 63046 ssh2
+2024-08-25 18:56:55.683856,2024-08-25T18:56:54.658012848Z Connection closed by invalid user pi 103.184.194.68 port 63046 [preauth]
+2024-08-25 18:56:55.689523,2024-08-25T18:56:54.658017418Z Invalid user user from 103.184.194.68 port 63048
+2024-08-25 18:56:55.694935,2024-08-25T18:56:54.658021902Z Could not get shadow information for NOUSER
+2024-08-25 18:56:55.702569,2024-08-25T18:56:54.658026378Z Accepted password user for user user from 103.184.194.68
+2024-08-25 18:56:55.709053,2024-08-25T18:56:54.658031143Z Failed password for invalid user user from 103.184.194.68 port 63048 ssh2
+2024-08-25 18:56:55.714863,2024-08-25T18:56:54.658035519Z Connection closed by invalid user user 103.184.194.68 port 63048 [preauth]
+2024-08-25 18:56:55.720387,2024-08-25T18:56:54.658039924Z Accepted password default for user root from 103.184.194.68
+2024-08-25 18:56:55.726109,2024-08-25T18:56:54.658044334Z Failed password for root from 103.184.194.68 port 63050 ssh2
+2024-08-25 18:56:55.731401,2024-08-25T18:56:54.658048760Z Connection closed by authenticating user root 103.184.194.68 port 63050 [preauth]
+2024-08-25 18:56:55.736468,2024-08-25T18:56:54.658053184Z Accepted password leostream for user root from 103.184.194.68
+2024-08-25 18:56:55.741975,2024-08-25T18:56:54.658057426Z Failed password for root from 103.184.194.68 port 63052 ssh2
+2024-08-25 18:56:55.747576,2024-08-25T18:56:54.658061792Z Connection closed by authenticating user root 103.184.194.68 port 63052 [preauth]
+2024-08-25 18:56:55.754353,2024-08-25T18:56:55.661554729Z Invalid user leo from 103.184.194.68 port 63054
+2024-08-25 18:56:56.666143,2024-08-25T18:56:55.661585394Z Could not get shadow information for NOUSER
+2024-08-25 18:56:56.672754,2024-08-25T18:56:55.661591520Z Accepted password leo for user leo from 103.184.194.68
+2024-08-25 18:56:56.678961,2024-08-25T18:56:55.661627108Z Failed password for invalid user leo from 103.184.194.68 port 63054 ssh2
+2024-08-25 18:56:56.684179,2024-08-25T18:56:55.661632285Z Connection closed by invalid user leo 103.184.194.68 port 63054 [preauth]
+2024-08-25 18:56:56.690401,2024-08-25T18:56:55.661636933Z Invalid user localadmin from 103.184.194.68 port 63058
+2024-08-25 18:56:56.696210,2024-08-25T18:56:55.661641590Z Could not get shadow information for NOUSER
+2024-08-25 18:56:56.704154,2024-08-25T18:56:55.661646407Z Accepted password localadmin for user localadmin from 103.184.194.68
+2024-08-25 18:56:56.709652,2024-08-25T18:56:55.661670489Z Failed password for invalid user localadmin from 103.184.194.68 port 63058 ssh2
+2024-08-25 18:56:56.715028,2024-08-25T18:56:55.661675416Z Connection closed by invalid user localadmin 103.184.194.68 port 63058 [preauth]
+2024-08-25 18:56:56.722696,2024-08-25T18:56:55.661679873Z Invalid user fwupgrade from 103.184.194.68 port 63060
+2024-08-25 18:56:56.727682,2024-08-25T18:56:55.661684186Z Could not get shadow information for NOUSER
+2024-08-25 18:56:56.732797,2024-08-25T18:56:55.661688530Z Accepted password fwupgrade for user fwupgrade from 103.184.194.68
+2024-08-25 18:56:56.738025,2024-08-25T18:56:55.661692889Z Failed password for invalid user fwupgrade from 103.184.194.68 port 63060 ssh2
+2024-08-25 18:56:56.744022,2024-08-25T18:56:55.661697380Z Connection closed by invalid user fwupgrade 103.184.194.68 port 63060 [preauth]
+2024-08-25 18:56:56.749921,2024-08-25T18:56:56.665287018Z Accepted password rootpasswd for user root from 103.184.194.68
+2024-08-25 18:56:57.669765,2024-08-25T18:56:56.665318826Z Failed password for root from 103.184.194.68 port 63062 ssh2
+2024-08-25 18:56:57.677515,2024-08-25T18:56:56.665340391Z Connection closed by authenticating user root 103.184.194.68 port 63062 [preauth]
+2024-08-25 18:56:57.683726,2024-08-25T18:56:56.665357029Z Invalid user admin from 103.184.194.68 port 63064
+2024-08-25 18:56:57.689012,2024-08-25T18:56:56.665361660Z Could not get shadow information for NOUSER
+2024-08-25 18:56:57.695588,2024-08-25T18:56:56.665366095Z Accepted password password for user admin from 103.184.194.68
+2024-08-25 18:56:57.701720,2024-08-25T18:56:56.665370682Z Failed password for invalid user admin from 103.184.194.68 port 63064 ssh2
+2024-08-25 18:56:57.706865,2024-08-25T18:56:56.665376066Z Connection closed by invalid user admin 103.184.194.68 port 63064 [preauth]
+2024-08-25 18:56:57.712097,2024-08-25T18:56:56.665380461Z Accepted password timeserver for user root from 103.184.194.68
+2024-08-25 18:56:57.718831,2024-08-25T18:56:56.665385015Z Failed password for root from 103.184.194.68 port 63066 ssh2
+2024-08-25 18:56:57.724733,2024-08-25T18:56:56.665389575Z Connection closed by authenticating user root 103.184.194.68 port 63066 [preauth]
+2024-08-25 18:56:57.730085,2024-08-25T18:56:56.665394350Z Invalid user admin from 103.184.194.68 port 63068
+2024-08-25 18:56:57.735429,2024-08-25T18:56:56.665399148Z Could not get shadow information for NOUSER
+2024-08-25 18:56:57.740504,2024-08-25T18:56:56.665403495Z Accepted password motorola for user admin from 103.184.194.68
+2024-08-25 18:56:57.746719,2024-08-25T18:56:56.665407922Z Failed password for invalid user admin from 103.184.194.68 port 63068 ssh2
+2024-08-25 18:56:57.753125,2024-08-25T18:56:56.665412542Z Connection closed by invalid user admin 103.184.194.68 port 63068 [preauth]
+2024-08-25 18:56:57.759609,2024-08-25T18:56:57.668862387Z Invalid user cloudera from 103.184.194.68 port 63070
+2024-08-25 18:56:58.673531,2024-08-25T18:56:57.668886549Z Could not get shadow information for NOUSER
+2024-08-25 18:56:58.680747,2024-08-25T18:56:57.668892098Z Accepted password cloudera for user cloudera from 103.184.194.68
+2024-08-25 18:56:58.689332,2024-08-25T18:56:57.668896939Z Failed password for invalid user cloudera from 103.184.194.68 port 63070 ssh2
+2024-08-25 18:56:58.697471,2024-08-25T18:56:57.668929308Z Connection closed by invalid user cloudera 103.184.194.68 port 63070 [preauth]
+2024-08-25 18:56:58.703282,2024-08-25T18:56:57.668934325Z Invalid user raj from 103.184.194.68 port 63072
+2024-08-25 18:56:58.708719,2024-08-25T18:56:57.668939347Z Could not get shadow information for NOUSER
+2024-08-25 18:56:58.714860,2024-08-25T18:56:57.668958483Z Accepted password raj for user raj from 103.184.194.68
+2024-08-25 18:56:58.721256,2024-08-25T18:56:57.668963523Z Failed password for invalid user raj from 103.184.194.68 port 63072 ssh2
+2024-08-25 18:56:58.729358,2024-08-25T18:56:57.668967886Z Connection closed by invalid user raj 103.184.194.68 port 63072 [preauth]
+2024-08-25 18:56:58.735165,2024-08-25T18:56:57.668972363Z Invalid user harsh from 103.184.194.68 port 63074
+2024-08-25 18:56:58.740357,2024-08-25T18:56:57.668976665Z Could not get shadow information for NOUSER
+2024-08-25 18:56:58.749238,2024-08-25T18:56:57.668980939Z Accepted password harsh for user harsh from 103.184.194.68
+2024-08-25 18:56:58.755835,2024-08-25T18:56:57.668985395Z Failed password for invalid user harsh from 103.184.194.68 port 63074 ssh2
+2024-08-25 18:56:58.761381,2024-08-25T18:56:57.668989856Z Connection closed by invalid user harsh 103.184.194.68 port 63074 [preauth]
+2024-08-25 18:56:58.766970,2024-08-25T18:56:57.668994220Z Invalid user sarthak from 103.184.194.68 port 63076
+2024-08-25 18:56:58.772932,2024-08-25T18:56:58.672645038Z Could not get shadow information for NOUSER
+2024-08-25 18:56:59.677614,2024-08-25T18:56:58.672670972Z Accepted password sarthak for user sarthak from 103.184.194.68
+2024-08-25 18:56:59.685266,2024-08-25T18:56:58.672676836Z Failed password for invalid user sarthak from 103.184.194.68 port 63076 ssh2
+2024-08-25 18:56:59.691058,2024-08-25T18:56:58.672681671Z Connection closed by invalid user sarthak 103.184.194.68 port 63076 [preauth]
+2024-08-25 18:56:59.697094,2024-08-25T18:56:58.672712956Z Accepted password p@ck3tf3nc3 for user root from 103.184.194.68
+2024-08-25 18:56:59.703441,2024-08-25T18:56:58.672719667Z Failed password for root from 103.184.194.68 port 63078 ssh2
+2024-08-25 18:56:59.709026,2024-08-25T18:56:58.672724258Z Connection closed by authenticating user root 103.184.194.68 port 63078 [preauth]
+2024-08-25 18:56:59.714699,2024-08-25T18:56:58.672728905Z Invalid user apc from 103.184.194.68 port 63080
+2024-08-25 18:56:59.722505,2024-08-25T18:56:58.672733399Z Could not get shadow information for NOUSER
+2024-08-25 18:56:59.728248,2024-08-25T18:56:58.672738212Z Accepted password apc for user apc from 103.184.194.68
+2024-08-25 18:56:59.733610,2024-08-25T18:56:58.672742737Z Failed password for invalid user apc from 103.184.194.68 port 63080 ssh2
+2024-08-25 18:56:59.741958,2024-08-25T18:56:58.672747102Z Connection closed by invalid user apc 103.184.194.68 port 63080 [preauth]
+2024-08-25 18:56:59.747743,2024-08-25T18:56:58.672751479Z Invalid user device from 103.184.194.68 port 63082
+2024-08-25 18:56:59.753404,2024-08-25T18:56:58.672755894Z Could not get shadow information for NOUSER
+2024-08-25 18:56:59.759308,2024-08-25T18:56:58.672760179Z Accepted password apc for user device from 103.184.194.68
+2024-08-25 18:56:59.764940,2024-08-25T18:56:58.672764450Z Failed password for invalid user device from 103.184.194.68 port 63082 ssh2
+2024-08-25 18:56:59.770459,2024-08-25T18:56:58.672768919Z Connection closed by invalid user device 103.184.194.68 port 63082 [preauth]
+2024-08-25 18:56:59.775904,2024-08-25T18:56:59.676537394Z Invalid user eurek from 103.184.194.68 port 63084
+2024-08-25 18:57:00.681669,2024-08-25T18:56:59.676569602Z Could not get shadow information for NOUSER
+2024-08-25 18:57:00.688824,2024-08-25T18:56:59.676575636Z Accepted password eurek for user eurek from 103.184.194.68
+2024-08-25 18:57:00.695947,2024-08-25T18:56:59.676580549Z Failed password for invalid user eurek from 103.184.194.68 port 63084 ssh2
+2024-08-25 18:57:00.703433,2024-08-25T18:56:59.676585223Z Connection closed by invalid user eurek 103.184.194.68 port 63084 [preauth]
+2024-08-25 18:57:00.709351,2024-08-25T18:56:59.676607546Z Invalid user netscreen from 103.184.194.68 port 63086
+2024-08-25 18:57:00.714644,2024-08-25T18:56:59.676639324Z Could not get shadow information for NOUSER
+2024-08-25 18:57:00.723518,2024-08-25T18:56:59.676644192Z Accepted password netscreen for user netscreen from 103.184.194.68
+2024-08-25 18:57:00.731932,2024-08-25T18:56:59.676648551Z Failed password for invalid user netscreen from 103.184.194.68 port 63086 ssh2
+2024-08-25 02:31:27.211761,2024-08-24T20:41:57.828647740Z 198.235.24.173 - - [24/Aug/2024:20:41:57 +0000] "GET /loginpage/adminlogin.html HTTP/1.1" 200 2680
+2024-08-25 02:31:27.218748,2024-08-25T02:31:27.210684702Z 206.168.34.113 - - [25/Aug/2024:02:31:26 +0000] "\x16\x03\x01" 400 960
+2024-08-25 02:31:31.212294,2024-08-25T02:31:31.211257649Z 206.168.34.113 - - [25/Aug/2024:02:31:30 +0000] "GET / HTTP/1.1" 302 -
+2024-08-25 02:31:42.213787,2024-08-25T02:31:42.212469675Z 206.168.34.113 - - [25/Aug/2024:02:31:41 +0000] "GET / HTTP/1.1" 302 -
+2024-08-25 02:31:44.213841,2024-08-25T02:31:44.212747292Z 206.168.34.113 - - [25/Aug/2024:02:31:43 +0000] "PRI * HTTP/2.0" 400 960
+2024-08-25 02:31:48.214220,2024-08-25T02:31:48.213282567Z 206.168.34.113 - - [25/Aug/2024:02:31:48 +0000] "GET /loginpage/adminlogin.html HTTP/1.1" 200 2680
+2024-08-25 02:31:49.214150,2024-08-25T02:31:49.213419672Z 206.168.34.113 - - [25/Aug/2024:02:31:49 +0000] "GET /images/iitklogo.png HTTP/1.1" 404 1029
+2024-08-25 02:31:50.214537,2024-08-25T02:31:50.213556449Z 206.168.34.113 - - [25/Aug/2024:02:31:49 +0000] "GET /favicon.ico HTTP/1.1" 200 30894
+2024-08-25 02:31:51.214416,2024-08-25T02:31:51.213620942Z 206.168.34.113 - - [25/Aug/2024:02:31:50 +0000] "PRI * HTTP/2.0" 400 960
+2024-08-25 02:31:52.214780,2024-08-25T02:31:52.213770052Z 206.168.34.113 - - [25/Aug/2024:02:31:51 +0000] "GET / HTTP/1.1" 302 -
+2024-08-25 02:45:08.303739,2024-08-25T02:45:08.302757285Z 199.45.154.133 - - [25/Aug/2024:02:45:07 +0000] "\x16\x03\x01" 400 960
+2024-08-25 02:45:11.304074,2024-08-25T02:45:11.303100279Z 199.45.154.133 - - [25/Aug/2024:02:45:10 +0000] "GET / HTTP/1.1" 302 -
+2024-08-25 02:45:20.305370,2024-08-25T02:45:20.304324454Z 199.45.154.133 - - [25/Aug/2024:02:45:19 +0000] "GET / HTTP/1.1" 302 -
+2024-08-25 02:45:23.305575,2024-08-25T02:45:20.304358399Z 199.45.154.133 - - [25/Aug/2024:02:45:19 +0000] "PRI * HTTP/2.0" 400 960
+2024-08-25 02:45:23.313353,2024-08-25T02:45:23.304703964Z 199.45.154.133 - - [25/Aug/2024:02:45:23 +0000] "GET /loginpage/adminlogin.html HTTP/1.1" 200 2680
+2024-08-25 02:45:24.305872,2024-08-25T02:45:24.304860978Z 199.45.154.133 - - [25/Aug/2024:02:45:23 +0000] "GET /images/iitklogo.png HTTP/1.1" 404 1029
+2024-08-25 02:45:25.305996,2024-08-25T02:45:24.304917286Z 199.45.154.133 - - [25/Aug/2024:02:45:24 +0000] "GET /favicon.ico HTTP/1.1" 200 30894
+2024-08-25 02:45:25.313883,2024-08-25T02:45:25.305102231Z 199.45.154.133 - - [25/Aug/2024:02:45:24 +0000] "PRI * HTTP/2.0" 400 960
+2024-08-25 02:45:27.306275,2024-08-25T02:45:27.305278174Z 199.45.154.133 - - [25/Aug/2024:02:45:26 +0000] "GET / HTTP/1.1" 302 -
+2024-08-25 09:09:00.870101,2024-08-25T09:09:00.868959287Z 165.154.150.65 - - [25/Aug/2024:09:09:00 +0000] "\x16\x03\x01\x01\x17\x01" 400 960
+2024-08-25 09:09:10.870958,2024-08-25T09:09:10.870011729Z 165.154.150.65 - - [25/Aug/2024:09:09:10 +0000] "GET / HTTP/1.1" 302 -
+2024-08-25 09:09:15.871430,2024-08-25T09:09:15.870457390Z 165.154.150.65 - - [25/Aug/2024:09:09:15 +0000] "GET /loginpage/adminlogin.html HTTP/1.1" 200 2680
+2024-08-25 09:09:16.874599,2024-08-25T09:09:16.870610238Z 165.154.150.65 - - [25/Aug/2024:09:09:15 +0000] "GET /loginpage/images/iitklogo.png HTTP/1.1" 200 132091
+2024-08-25 09:09:22.872368,2024-08-25T09:09:16.870665019Z 165.154.150.65 - - [25/Aug/2024:09:09:16 +0000] "GET /robots.txt HTTP/1.1" 404 1028
+2024-08-25 09:09:22.879105,2024-08-25T09:09:16.870672552Z 165.154.150.65 - - [25/Aug/2024:09:09:16 +0000] "GET /sitemap.xml HTTP/1.1" 404 1028
+2024-08-25 09:09:22.885183,2024-08-25T09:09:16.870677536Z 165.154.150.65 - - [25/Aug/2024:09:09:16 +0000] "GET /js/jquery_login.min.js HTTP/1.1" 404 1029
+2024-08-25 09:09:22.893317,2024-08-25T09:09:16.870682232Z 165.154.150.65 - - [25/Aug/2024:09:09:16 +0000] "GET /js/beacon.min.js HTTP/1.1" 404 1029
+2024-08-25 09:09:22.898946,2024-08-25T09:09:16.870687270Z 165.154.150.65 - - [25/Aug/2024:09:09:16 +0000] "GET /js/popper.js+bootstrap.min.js+main.js.pagespeed.jc.9eD6_Mep8S.js HTTP/1.1" 404 1029
+2024-08-25 09:09:22.904891,2024-08-25T09:09:16.870692079Z 165.154.150.65 - - [25/Aug/2024:09:09:16 +0000] "GET /config.json HTTP/1.1" 404 1028
+2024-08-25 09:09:22.911019,2024-08-25T09:09:22.871368910Z 127.0.0.1 - - [25/Aug/2024:09:09:22 +0000] "OPTIONS * HTTP/1.0" 200 -
+2024-08-25 09:09:23.872434,2024-08-25T09:09:23.871508798Z 127.0.0.1 - - [25/Aug/2024:09:09:23 +0000] "OPTIONS * HTTP/1.0" 200 -
+2024-08-25 09:09:24.872683,2024-08-25T09:09:24.871659417Z 127.0.0.1 - - [25/Aug/2024:09:09:24 +0000] "OPTIONS * HTTP/1.0" 200 -
+2024-08-25 13:44:39.630645,2024-08-25T13:44:39.629112930Z 167.94.145.107 - - [25/Aug/2024:13:44:39 +0000] "\x16\x03\x01" 400 960
+2024-08-25 13:44:42.630336,2024-08-25T13:44:42.629336180Z 167.94.145.107 - - [25/Aug/2024:13:44:42 +0000] "GET / HTTP/1.1" 302 -
+2024-08-25 13:44:51.631829,2024-08-25T13:44:51.630641549Z 167.94.145.107 - - [25/Aug/2024:13:44:51 +0000] "GET / HTTP/1.1" 302 -
+2024-08-25 13:44:55.631872,2024-08-25T13:44:51.630680518Z 167.94.145.107 - - [25/Aug/2024:13:44:51 +0000] "PRI * HTTP/2.0" 400 960
+2024-08-25 13:44:55.638672,2024-08-25T13:44:55.630887131Z 167.94.145.107 - - [25/Aug/2024:13:44:55 +0000] "GET /loginpage/adminlogin.html HTTP/1.1" 200 2680
+2024-08-25 13:44:56.632080,2024-08-25T13:44:56.631079821Z 167.94.145.107 - - [25/Aug/2024:13:44:56 +0000] "GET /images/iitklogo.png HTTP/1.1" 404 1029
+2024-08-25 13:44:57.632253,2024-08-25T13:44:56.631113280Z 167.94.145.107 - - [25/Aug/2024:13:44:56 +0000] "GET /favicon.ico HTTP/1.1" 200 30894
+2024-08-25 13:44:57.639173,2024-08-25T13:44:57.631169330Z 167.94.145.107 - - [25/Aug/2024:13:44:56 +0000] "PRI * HTTP/2.0" 400 960
+2024-08-25 18:38:35.518603,2024-08-25T13:44:57.631227647Z 167.94.145.107 - - [25/Aug/2024:13:44:56 +0000] "GET / HTTP/1.1" 302 -
+2024-08-25 18:38:35.536402,2024-08-25T18:38:35.518372113Z 103.184.194.68 - - [25/Aug/2024:18:38:35 +0000] "GET / HTTP/1.0" 302 -
+2024-08-25 18:38:58.631006,2024-08-25T18:38:54.520815025Z 103.184.194.68 - - [25/Aug/2024:18:38:53 +0000] "GET /nmaplowercheck1724611134 HTTP/1.1" 404 1066
+2024-08-25 18:38:58.645858,2024-08-25T18:38:54.520819766Z 103.184.194.68 - - [25/Aug/2024:18:38:53 +0000] "OPTIONS / HTTP/1.1" 302 -
+2024-08-25 18:38:58.589992,2024-08-25T18:38:58.519740108Z 103.184.194.68 - - [25/Aug/2024:18:38:57 +0000] "GET / HTTP/1.0" 302 -
+2024-08-25 18:51:27.606741,2024-08-25T18:38:58.519754881Z 103.184.194.68 - - [25/Aug/2024:18:38:57 +0000] "GET / HTTP/1.1" 302 -
+2024-08-25 18:51:27.614723,2024-08-25T18:51:27.605311669Z 95.214.27.9 - - [25/Aug/2024:18:51:27 +0000] "GET /config HTTP/1.1" 404 1029
+2024-08-25 19:01:33.670515,2024-08-25T19:01:33.670079131Z 167.94.145.100 - - [25/Aug/2024:19:01:32 +0000] "GET / HTTP/1.1" 302 -
+2024-08-25 19:01:41.672110,2024-08-25T19:01:41.671041317Z 167.94.145.100 - - [25/Aug/2024:19:01:41 +0000] "GET / HTTP/1.1" 302 -
+2024-08-25 19:01:42.672185,2024-08-25T19:01:42.671133966Z 167.94.145.100 - - [25/Aug/2024:19:01:41 +0000] "PRI * HTTP/2.0" 400 960
+2024-08-25 19:01:45.671924,2024-08-25T19:01:45.671412152Z 167.94.145.100 - - [25/Aug/2024:19:01:45 +0000] "GET /xss/ HTTP/1.1" 200 1300
+2024-08-25 19:01:46.672920,2024-08-25T19:01:45.671446004Z 167.94.145.100 - - [25/Aug/2024:19:01:45 +0000] "GET /images/loading.gif HTTP/1.1" 404 1029
+2024-08-25 19:01:46.680916,2024-08-25T19:01:46.671523568Z 167.94.145.100 - - [25/Aug/2024:19:01:45 +0000] "GET /favicon.ico HTTP/1.1" 200 30894
+2024-08-25 19:02:02.674223,2024-08-25T19:01:46.671552561Z 167.94.145.100 - - [25/Aug/2024:19:01:46 +0000] "PRI * HTTP/2.0" 400 960
+2024-08-25 19:02:02.681749,2024-08-25T19:01:46.671558671Z 167.94.145.100 - - [25/Aug/2024:19:01:46 +0000] "GET / HTTP/1.1" 302 -
+2024-08-25 19:02:02.687426,2024-08-25T19:02:02.673063078Z 205.210.31.228 - - [25/Aug/2024:19:02:02 +0000] "GET / HTTP/1.0" 302 -
+2024-08-25 19:09:10.721540,2024-08-25T19:09:10.719554168Z 95.214.27.9 - - [25/Aug/2024:19:09:09 +0000] "GET /config HTTP/1.1" 404 1029
+2024-08-25 19:34:51.888509,2024-08-25T19:34:51.887280642Z 95.214.27.9 - - [25/Aug/2024:19:34:51 +0000] "GET /config HTTP/1.1" 404 1029
+2024-08-25 19:53:46.012471,2024-08-25T19:53:46.011432447Z 95.214.27.9 - - [25/Aug/2024:19:53:45 +0000] "GET /config HTTP/1.1" 404 1029
+2024-08-25 20:05:53.089123,2024-08-25T20:05:53.088569646Z 95.214.27.9 - - [25/Aug/2024:20:05:52 +0000] "GET /config HTTP/1.1" 404 1029
+2024-08-25 20:30:59.249606,2024-08-25T20:30:59.248534025Z 95.214.27.9 - - [25/Aug/2024:20:30:59 +0000] "GET /config HTTP/1.1" 404 1029
+2024-08-25 20:46:02.343495,2024-08-25T20:46:02.342395489Z 95.214.27.9 - - [25/Aug/2024:20:46:02 +0000] "GET /config HTTP/1.1" 404 1029
+2024-08-25 21:06:08.471932,2024-08-25T21:06:08.470190543Z 95.214.27.9 - - [25/Aug/2024:21:06:07 +0000] "GET /config HTTP/1.1" 404 1029
+2024-08-25 21:19:49.560367,2024-08-25T21:19:49.559355279Z 176.97.210.30 - - [25/Aug/2024:21:19:49 +0000] "CONNECT www.cloudflare.com:443 HTTP/1.1" 302 -
+2024-08-25 21:34:02.651919,2024-08-25T21:34:02.651254736Z 95.214.27.9 - - [25/Aug/2024:21:34:02 +0000] "GET /config HTTP/1.1" 404 1029
+2024-08-25 21:47:18.734788,2024-08-25T21:47:18.733575077Z 95.214.27.9 - - [25/Aug/2024:21:47:17 +0000] "GET /config HTTP/1.1" 404 1029
+2024-08-25 21:58:12.806715,2024-08-25T21:58:12.805637214Z 83.97.73.245 - - [25/Aug/2024:21:58:12 +0000] "GET /jars HTTP/1.1" 404 1029
+2024-08-25 22:14:08.910471,2024-08-25T22:14:08.909423555Z 95.214.27.9 - - [25/Aug/2024:22:14:08 +0000] "GET /config HTTP/1.1" 404 1029
+2024-08-25 22:29:35.020516,2024-08-25T22:29:35.019854855Z 95.214.27.9 - - [25/Aug/2024:22:29:34 +0000] "GET /config HTTP/1.1" 404 1029
+2024-08-25 22:46:24.129944,2024-08-25T22:46:24.129129860Z 172.202.249.86 - - [25/Aug/2024:22:46:23 +0000] "MGLNDD_3.110.33.20_8081\n" 400 960
+2024-08-25 22:53:32.176157,2024-08-25T22:53:32.175009531Z 95.214.27.9 - - [25/Aug/2024:22:53:31 +0000] "GET /config HTTP/1.1" 404 1029
+2024-08-25 23:14:04.304320,2024-08-25T23:14:04.303781824Z 95.214.27.9 - - [25/Aug/2024:23:14:03 +0000] "GET /config HTTP/1.1" 404 1029
+2024-08-25 23:26:39.385193,2024-08-25T23:26:39.383963868Z 95.214.27.9 - - [25/Aug/2024:23:26:39 +0000] "GET /config HTTP/1.1" 404 1029
+2024-08-25 23:46:54.514367,2024-08-25T23:46:54.513207007Z 95.214.27.9 - - [25/Aug/2024:23:46:54 +0000] "GET /config HTTP/1.1" 404 1029
+2024-08-25 01:22:29.578441,2024-08-25T01:22:29.577370342Z 220.250.11.222 - - [25/Aug/2024:01:22:29 +0000] "\x16\x03\x01\x00\xEE\x01\x00\x00\xEA\x03\x03\x03\xED\x11\x99_\xBE@3G'\x9Ee\x13\x87\xE8\x5C\xC2\xD8d\x88\xCDNX\xEA\x96!\x03\x8E\xD4\xA4\xF0\xBB [\xBD\xBF\xFD\x22\x07N&n\x15\xCE\xC1o\x17\xD2\x12*\xA3i" 400 157 "-" "-" "-"
+2024-08-25 01:22:30.022102,2024-08-25T01:22:30.021218128Z 221.207.35.175 - - [25/Aug/2024:01:22:30 +0000] "GET / HTTP/1.1" 200 5982 "-" "-" "-"
+2024-08-25 01:22:32.854088,2024-08-25T01:22:32.853090785Z 123.14.250.223 - - [25/Aug/2024:01:22:32 +0000] "\x16\x03\x01\x00\xEE\x01\x00\x00\xEA\x03\x03f|\xA6|\xC1\xC8\xDD!\x0B\xA8\xD2x\x9A\x90\x04\xA7$\xAA\x02I\xAF^4\xBDW\xEC\x18\xDEn\xDE\xE2\xD1 <L\x1BF\x0B\xFE\xB1\xE2cQ\xA6\xD4{%\xEEq\xCE\xBB$~\xFE\x0BF\x8CvK\x8A\xA8\xF8\x09\x83\x8E\x00&\xC0+\xC0/\xC0,\xC00\xCC\xA9\xCC\xA8\xC0\x09\xC0\x13\xC0" 400 157 "-" "-" "-"
+2024-08-25 01:23:13.159152,2024-08-25T01:23:13.157603600Z 61.158.26.185 - - [25/Aug/2024:01:23:13 +0000] "" 408 0 "-" "-" "-"
+2024-08-25 05:22:36.069412,2024-08-25T05:22:36.067995544Z 162.216.150.93 - - [25/Aug/2024:05:22:36 +0000] "GET / HTTP/1.1" 200 5982 "-" "Expanse, a Palo Alto Networks company, searches across the global IPv4 space multiple times per day to identify customers&#39; presences on the Internet. If you would like to be excluded from our scans, please send IP addresses/domains to: scaninfo@paloaltonetworks.com" "-"
+2024-08-25 13:50:32.373778,2024-08-25T13:50:32.372285277Z 47.88.6.181 - - [25/Aug/2024:13:50:32 +0000] "\x16\x03\x01\x00\xEE\x01\x00\x00\xEA\x03\x03I\x06\xB2\xF9\xBC\x99i\xC0Y\xFB\xF8\xBAe-\x83Ud]\x0E\x8D\xB7b8\xB4g\xC6\xDD9dZ8f g\xC1\x81i\xB3\xF6\xF2\xCB\xB0\xA9\x19N\xD6\xBD\x95g|p\xFC\xE9<Z\xA1\x90T\xB7\xE9\xA58'O;\x00&\xC0+\xC0/\xC0,\xC00\xCC\xA9\xCC\xA8\xC0\x09\xC0\x13\xC0" 400 157 "-" "-" "-"
+2024-08-25 15:24:43.780976,2024-08-25T15:24:43.779900061Z 35.203.211.161 - - [25/Aug/2024:15:24:43 +0000] "GET / HTTP/1.1" 200 5982 "-" "Expanse, a Palo Alto Networks company, searches across the global IPv4 space multiple times per day to identify customers&#39; presences on the Internet. If you would like to be excluded from our scans, please send IP addresses/domains to: scaninfo@paloaltonetworks.com" "-"
+2024-08-25 15:36:08.359698,2024-08-25T15:36:08.358495973Z 66.240.236.119 - - [25/Aug/2024:15:36:08 +0000] "GET / HTTP/1.1" 200 5982 "-" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36" "-"
+2024-08-25 15:36:10.195972,2024-08-25T15:36:10.195026832Z 66.240.236.119 - - [25/Aug/2024:15:36:10 +0000] "GET /treacletech.ico HTTP/1.1" 404 555 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36" "-"
+2024-08-25 18:38:40.087481,2024-08-25T18:38:40.084601090Z 103.184.194.68 - - [25/Aug/2024:18:38:40 +0000] "" 400 0 "-" "-" "-"
+2024-08-25 18:38:40.117572,2024-08-25T18:38:40.116488776Z 103.184.194.68 - - [25/Aug/2024:18:38:40 +0000] "GET / HTTP/1.0" 200 5982 "-" "-" "-"
+2024-08-26 00:07:11.644079,2024-08-26T00:07:11.642805051Z 95.214.27.9 - - [26/Aug/2024:00:07:11 +0000] "GET /config HTTP/1.1" 404 1029
+2024-08-26 00:26:30.767842,2024-08-26T00:26:30.766665136Z 95.214.27.9 - - [26/Aug/2024:00:26:30 +0000] "GET /config HTTP/1.1" 404 1029
+2024-08-26 00:31:36.800209,2024-08-26T00:31:36.798933935Z 198.235.24.216 - - [26/Aug/2024:00:31:36 +0000] "GET / HTTP/1.1" 302 -
+2024-08-26 00:45:15.887474,2024-08-26T00:31:36.799001689Z 198.235.24.216 - - [26/Aug/2024:00:31:36 +0000] "GET /xss/ HTTP/1.1" 200 1300
+2024-08-26 00:45:15.895085,2024-08-26T00:45:15.886441720Z 95.214.27.9 - - [26/Aug/2024:00:45:15 +0000] "GET /config HTTP/1.1" 404 1029
+2024-08-26 01:02:44.997151,2024-08-26T01:02:44.996156547Z 206.168.34.34 - - [26/Aug/2024:01:02:44 +0000] "GET / HTTP/1.1" 302 -
+2024-08-26 01:02:53.997963,2024-08-26T01:02:53.997013660Z 206.168.34.34 - - [26/Aug/2024:01:02:53 +0000] "GET / HTTP/1.1" 302 -
+2024-08-26 01:02:54.998263,2024-08-26T01:02:54.997179122Z 206.168.34.34 - - [26/Aug/2024:01:02:54 +0000] "PRI * HTTP/2.0" 400 960
+2024-08-26 01:02:58.998624,2024-08-26T01:02:58.997608144Z 206.168.34.34 - - [26/Aug/2024:01:02:58 +0000] "GET /xss/ HTTP/1.1" 200 1300
+2024-08-26 01:02:59.998744,2024-08-26T01:02:58.997644375Z 206.168.34.34 - - [26/Aug/2024:01:02:58 +0000] "GET /images/loading.gif HTTP/1.1" 404 1029
+2024-08-26 01:03:00.006287,2024-08-26T01:02:59.997692415Z 206.168.34.34 - - [26/Aug/2024:01:02:59 +0000] "GET /favicon.ico HTTP/1.1" 200 30894
+2024-08-26 01:03:00.998980,2024-08-26T01:03:00.997911802Z 206.168.34.34 - - [26/Aug/2024:01:03:00 +0000] "PRI * HTTP/2.0" 400 960
+2024-08-26 01:08:04.031703,2024-08-26T01:03:00.997946394Z 206.168.34.34 - - [26/Aug/2024:01:03:00 +0000] "GET / HTTP/1.1" 302 -
+2024-08-26 01:08:04.040210,2024-08-26T01:08:04.030695783Z 95.214.27.9 - - [26/Aug/2024:01:08:03 +0000] "GET /config HTTP/1.1" 404 1029
+2024-08-26 01:10:34.047863,2024-08-26T01:10:34.046899058Z 176.97.210.30 - - [26/Aug/2024:01:10:33 +0000] "CONNECT www.cloudflare.com:443 HTTP/1.1" 302 -
+2024-08-26 01:32:32.189018,2024-08-26T01:32:32.187540594Z 95.214.27.9 - - [26/Aug/2024:01:32:31 +0000] "GET /config HTTP/1.1" 404 1029
+2024-08-26 01:39:30.234986,2024-08-26T01:39:30.233787132Z 205.210.31.138 - - [26/Aug/2024:01:39:29 +0000] "GET / HTTP/1.1" 302 -
+2024-08-26 01:54:55.332436,2024-08-26T01:39:30.233823874Z 205.210.31.138 - - [26/Aug/2024:01:39:30 +0000] "GET /xss/ HTTP/1.1" 200 1300
+2024-08-26 01:54:55.340177,2024-08-26T01:54:55.331295694Z 95.214.27.9 - - [26/Aug/2024:01:54:54 +0000] "GET /config HTTP/1.1" 404 1029
+2024-08-26 02:10:28.431119,2024-08-26T02:10:28.429977846Z 95.214.27.9 - - [26/Aug/2024:02:10:28 +0000] "GET /config HTTP/1.1" 404 1029
+2024-08-26 02:26:08.530679,2024-08-26T02:26:08.529606734Z 95.214.27.9 - - [26/Aug/2024:02:26:07 +0000] "GET /config HTTP/1.1" 404 1029
+2024-08-26 02:49:25.681394,2024-08-26T02:49:25.680250102Z 95.214.27.9 - - [26/Aug/2024:02:49:25 +0000] "GET /config HTTP/1.1" 404 1029
+2024-08-26 03:07:59.798763,2024-08-26T03:07:59.797679094Z 95.214.27.9 - - [26/Aug/2024:03:07:58 +0000] "GET /config HTTP/1.1" 404 1029
+2024-08-26 03:31:08.944345,2024-08-26T03:31:08.943204444Z 95.214.27.9 - - [26/Aug/2024:03:31:08 +0000] "GET /config HTTP/1.1" 404 1029
+2024-08-26 03:38:41.991024,2024-08-26T03:38:41.990469146Z 167.94.138.116 - - [26/Aug/2024:03:38:41 +0000] "GET / HTTP/1.1" 302 -
+2024-08-26 03:38:52.992999,2024-08-26T03:38:52.991863217Z 167.94.138.116 - - [26/Aug/2024:03:38:52 +0000] "GET / HTTP/1.1" 302 -
+2024-08-26 03:38:53.992942,2024-08-26T03:38:53.991838965Z 167.94.138.116 - - [26/Aug/2024:03:38:53 +0000] "PRI * HTTP/2.0" 400 960
+2024-08-26 03:38:59.993496,2024-08-26T03:38:59.992315329Z 167.94.138.116 - - [26/Aug/2024:03:38:59 +0000] "GET /xss/ HTTP/1.1" 200 1300
+2024-08-26 03:39:00.993570,2024-08-26T03:39:00.992409384Z 167.94.138.116 - - [26/Aug/2024:03:39:00 +0000] "GET /images/loading.gif HTTP/1.1" 404 1029
+2024-08-26 03:39:03.993383,2024-08-26T03:39:03.992787242Z 167.94.138.116 - - [26/Aug/2024:03:39:03 +0000] "GET /favicon.ico HTTP/1.1" 200 30894
+2024-08-26 03:39:05.994292,2024-08-26T03:39:05.993057112Z 167.94.138.116 - - [26/Aug/2024:03:39:05 +0000] "PRI * HTTP/2.0" 400 960
+2024-08-26 03:39:07.994426,2024-08-26T03:39:07.993253383Z 167.94.138.116 - - [26/Aug/2024:03:39:07 +0000] "GET / HTTP/1.1" 302 -
+2024-08-26 03:55:41.104757,2024-08-26T03:55:41.103684873Z 95.214.27.9 - - [26/Aug/2024:03:55:40 +0000] "GET /config HTTP/1.1" 404 1029
+2024-08-26 04:06:42.176605,2024-08-26T04:06:42.175629848Z 95.214.27.9 - - [26/Aug/2024:04:06:41 +0000] "GET /config HTTP/1.1" 404 1029
+2024-08-26 04:25:21.295416,2024-08-26T04:25:21.294640034Z 95.214.27.9 - - [26/Aug/2024:04:25:21 +0000] "GET /config HTTP/1.1" 404 1029
+2024-08-26 04:46:54.433133,2024-08-26T04:46:54.431968898Z 95.214.27.9 - - [26/Aug/2024:04:46:53 +0000] "GET /config HTTP/1.1" 404 1029
+2024-08-26 04:56:32.494338,2024-08-26T04:56:32.493272054Z 176.97.210.30 - - [26/Aug/2024:04:56:31 +0000] "CONNECT www.cloudflare.com:443 HTTP/1.1" 302 -
+2024-08-26 05:13:27.602302,2024-08-26T05:13:27.600861259Z 95.214.27.9 - - [26/Aug/2024:05:13:27 +0000] "GET /config HTTP/1.1" 404 1029
+2024-08-26 05:31:18.712748,2024-08-26T05:31:18.711739673Z 20.118.69.90 - - [26/Aug/2024:05:31:18 +0000] "GET / HTTP/1.1" 302 -
+2024-08-26 05:32:17.721318,2024-08-26T05:32:17.718660448Z 95.214.27.9 - - [26/Aug/2024:05:32:17 +0000] "GET /config HTTP/1.1" 404 1029
+2024-08-26 05:42:58.785463,2024-08-26T05:42:58.784461741Z 172.104.209.118 - - [26/Aug/2024:05:42:58 +0000] "\x16\x03\x01" 400 960
+2024-08-26 05:50:36.837224,2024-08-26T05:50:36.836151787Z 95.214.27.9 - - [26/Aug/2024:05:50:36 +0000] "GET /config HTTP/1.1" 404 1029
+2024-08-26 06:09:15.951820,2024-08-26T06:09:15.950803394Z 95.214.27.9 - - [26/Aug/2024:06:09:15 +0000] "GET /config HTTP/1.1" 404 1029
+2024-08-26 06:14:08.983857,2024-08-26T06:14:08.982769746Z 87.236.176.227 - - [26/Aug/2024:06:14:08 +0000] "GET / HTTP/1.1" 302 -
+2024-08-26 06:14:09.983901,2024-08-26T06:14:08.982831686Z 87.236.176.227 - - [26/Aug/2024:06:14:08 +0000] "GET /xss/ HTTP/1.1" 200 1300
+2024-08-26 06:14:09.990732,2024-08-26T06:14:09.982919737Z 87.236.176.120 - - [26/Aug/2024:06:14:09 +0000] "GET /xss/images/loading.gif HTTP/1.1" 200 35499
+2024-08-26 06:25:53.056923,2024-08-26T06:25:53.056450004Z 95.214.27.9 - - [26/Aug/2024:06:25:52 +0000] "GET /config HTTP/1.1" 404 1029
+2024-08-26 06:44:15.175213,2024-08-26T06:44:15.174151622Z 95.214.27.9 - - [26/Aug/2024:06:44:14 +0000] "GET /config HTTP/1.1" 404 1029
+2024-08-26 07:02:43.298704,2024-08-26T07:02:43.296731099Z 184.105.247.223 - - [26/Aug/2024:07:02:42 +0000] "GET / HTTP/1.1" 302 -
+2024-08-26 07:03:14.301341,2024-08-26T07:03:14.300310441Z 184.105.247.219 - - [26/Aug/2024:07:03:13 +0000] "GET / HTTP/1.1" 302 -
+2024-08-26 07:03:23.302372,2024-08-26T07:03:14.300345941Z 184.105.247.219 - - [26/Aug/2024:07:03:13 +0000] "GET /xss/ HTTP/1.1" 200 1300
+2024-08-26 07:03:23.309226,2024-08-26T07:03:23.301264335Z 184.105.247.243 - - [26/Aug/2024:07:03:22 +0000] "GET /favicon.ico HTTP/1.1" 200 30894
+2024-08-26 07:03:49.305173,2024-08-26T07:03:49.304177245Z 184.105.247.215 - - [26/Aug/2024:07:03:49 +0000] "GET http://api.ipify.org/?format=json HTTP/1.1" 302 -
+2024-08-26 07:04:12.308497,2024-08-26T07:04:12.306555675Z 184.105.247.203 - - [26/Aug/2024:07:04:11 +0000] "CONNECT www.shadowserver.org:443 HTTP/1.1" 302 -
+2024-08-26 07:06:59.325517,2024-08-26T07:06:59.324684267Z 95.214.27.9 - - [26/Aug/2024:07:06:58 +0000] "GET /config HTTP/1.1" 404 1029
+2024-08-26 07:23:31.432278,2024-08-26T07:23:31.431194260Z 205.210.31.91 - - [26/Aug/2024:07:23:31 +0000] "\x16\x03\x01" 400 960
+2024-08-26 07:23:32.432279,2024-08-26T07:23:32.431349920Z 205.210.31.91 - - [26/Aug/2024:07:23:31 +0000] "\x16\x03\x01" 400 960
+2024-08-26 07:30:42.476909,2024-08-26T07:30:42.475733508Z 95.214.27.9 - - [26/Aug/2024:07:30:41 +0000] "GET /config HTTP/1.1" 404 1029
+2024-08-26 07:49:11.594236,2024-08-26T07:49:11.593206971Z 95.214.27.9 - - [26/Aug/2024:07:49:11 +0000] "GET /config HTTP/1.1" 404 1029
+2024-08-26 08:10:54.732045,2024-08-26T08:10:54.731047771Z 95.214.27.9 - - [26/Aug/2024:08:10:54 +0000] "GET /config HTTP/1.1" 404 1029
+2024-08-26 08:16:55.770310,2024-08-26T08:16:55.769122096Z 167.94.145.103 - - [26/Aug/2024:08:16:55 +0000] "GET / HTTP/1.1" 302 -
+2024-08-26 08:17:04.770162,2024-08-26T08:17:04.769680132Z 167.94.145.103 - - [26/Aug/2024:08:17:04 +0000] "GET / HTTP/1.1" 302 -
+2024-08-26 08:17:04.775007,2024-08-26T08:17:04.769713279Z 167.94.145.103 - - [26/Aug/2024:08:17:04 +0000] "PRI * HTTP/2.0" 400 960
+2024-08-26 08:17:08.771548,2024-08-26T08:17:08.770175374Z 167.94.145.103 - - [26/Aug/2024:08:17:07 +0000] "GET /xss/ HTTP/1.1" 200 1300
+2024-08-26 08:17:09.771316,2024-08-26T08:17:08.770208182Z 167.94.145.103 - - [26/Aug/2024:08:17:08 +0000] "GET /images/loading.gif HTTP/1.1" 404 1029
+2024-08-26 08:17:09.779302,2024-08-26T08:17:08.770213980Z 167.94.145.103 - - [26/Aug/2024:08:17:08 +0000] "GET /favicon.ico HTTP/1.1" 200 30894
+2024-08-26 08:17:09.784884,2024-08-26T08:17:08.770219495Z 167.94.145.103 - - [26/Aug/2024:08:17:08 +0000] "PRI * HTTP/2.0" 400 960
+2024-08-26 08:17:09.790360,2024-08-26T08:17:09.770240912Z 167.94.145.103 - - [26/Aug/2024:08:17:08 +0000] "GET / HTTP/1.1" 302 -
+2024-08-26 08:31:51.865276,2024-08-26T08:31:51.863951004Z 95.214.27.9 - - [26/Aug/2024:08:31:51 +0000] "GET /config HTTP/1.1" 404 1029
+2024-08-26 08:43:40.941669,2024-08-26T08:43:40.939972386Z 176.97.210.30 - - [26/Aug/2024:08:43:40 +0000] "CONNECT www.cloudflare.com:443 HTTP/1.1" 302 -
+2024-08-26 02:19:17.494800,2024-08-26T02:19:17.485032995Z 198.235.24.83 - - [26/Aug/2024:02:19:16 +0000] "GET / HTTP/1.1" 302 -
+2024-08-26 03:41:30.009883,2024-08-26T02:19:17.485615986Z 198.235.24.83 - - [26/Aug/2024:02:19:17 +0000] "GET /loginpage/adminlogin.html HTTP/1.1" 200 2680
+2024-08-26 03:41:30.018601,2024-08-26T03:41:30.008791674Z 205.210.31.153 - - [26/Aug/2024:03:41:29 +0000] "GET / HTTP/1.1" 302 -
+2024-08-26 08:57:17.027116,2024-08-26T03:41:30.008832047Z 205.210.31.153 - - [26/Aug/2024:03:41:29 +0000] "GET /loginpage/adminlogin.html HTTP/1.1" 200 2680
+2024-08-26 08:57:17.034659,2024-08-26T08:57:17.026535459Z 87.236.176.236 - - [26/Aug/2024:08:57:16 +0000] "GET / HTTP/1.1" 302 -
+2024-08-26 08:57:18.027749,2024-08-26T08:57:17.026640041Z 87.236.176.236 - - [26/Aug/2024:08:57:16 +0000] "GET /loginpage/adminlogin.html HTTP/1.1" 200 2680
+2024-08-26 08:57:18.036275,2024-08-26T08:57:18.026638406Z 87.236.176.81 - - [26/Aug/2024:08:57:17 +0000] "GET /loginpage/images/iitklogo.png HTTP/1.1" 200 132091
+2024-08-26 21:57:07.041560,2024-08-26T21:57:07.040569196Z 154.212.141.214 - - [26/Aug/2024:21:57:06 +0000] "GET / HTTP/1.1" 302 -
+2024-08-26 22:41:18.330895,2024-08-26T22:41:18.329892443Z 205.210.31.6 - - [26/Aug/2024:22:41:17 +0000] "GET / HTTP/1.1" 302 -
+2024-08-26 22:41:19.331103,2024-08-26T22:41:19.330060884Z 205.210.31.6 - - [26/Aug/2024:22:41:18 +0000] "GET /loginpage/adminlogin.html HTTP/1.1" 200 2680
+2024-08-27 03:31:30.226737,2024-08-27T03:31:30.225181356Z 147.185.132.105 - - [27/Aug/2024:03:31:29 +0000] "GET / HTTP/1.1" 302 -
+2024-08-27 03:31:31.226340,2024-08-27T03:31:31.225230454Z 147.185.132.105 - - [27/Aug/2024:03:31:30 +0000] "GET /loginpage/adminlogin.html HTTP/1.1" 200 2680
+2024-08-27 06:43:11.468930,2024-08-27T06:43:11.468042492Z 1.23.118.10 - - [27/Aug/2024:06:43:10 +0000] "GET / HTTP/1.1" 302 -
+2024-08-27 06:43:12.473651,2024-08-27T06:43:11.468077456Z 1.23.118.10 - - [27/Aug/2024:06:43:10 +0000] "GET /loginpage/adminlogin.html HTTP/1.1" 200 2680
+2024-08-27 06:43:12.480838,2024-08-27T06:43:11.468084188Z 1.23.118.10 - - [27/Aug/2024:06:43:11 +0000] "GET /loginpage/css/css HTTP/1.1" 200 2140
+2024-08-27 06:43:18.482896,2024-08-27T06:43:18.473327253Z 127.0.0.1 - - [27/Aug/2024:06:43:17 +0000] "OPTIONS * HTTP/1.0" 200 -
+2024-09-06 17:48:38.483677,2024-09-06T17:48:38.483103346Z Fri Sep  6 17:48:37 2024 [pid 490] CONNECT: Client "216.218.206.67"
+2024-09-06 18:20:33.862677,2024-09-06T18:20:33.861988066Z Fri Sep  6 18:20:33 2024 [pid 492] CONNECT: Client "4.151.38.109"
+2024-09-06 21:58:56.234026,2024-09-06T21:58:56.233414008Z Fri Sep  6 21:58:55 2024 [pid 494] CONNECT: Client "167.94.138.62"
+2024-09-06 23:53:37.932485,2024-09-06T23:53:37.931830176Z Fri Sep  6 23:53:37 2024 [pid 496] CONNECT: Client "110.152.251.231"
+2024-09-06 23:53:38.932500,2024-09-06T23:53:38.931980111Z Fri Sep  6 23:53:38 2024 [pid 495] [test] FAIL LOGIN: Client "110.152.251.231"
+2024-09-03 22:01:42.476776,2024-09-03T22:01:42.475838426Z Fri Nov 29 10:06:50 2024 [pid 58] [admin] OK LOGIN: Client "172.28.0.1"
+2024-09-03 22:01:42.476776,2024-09-03T22:01:42.475838426Z Fri Nov 29 10:06:55 2024 [pid 60] [admin] OK DOWNLOAD: Client "172.28.0.1", "/home/admin/config1.pdf", 81588 bytes, 172458.40Kbyte/sec
+2024-09-03 22:01:42.476776,2024-09-03T22:01:42.475838426Z Fri Nov 29 10:07:09 2024 [pid 60] [admin] OK DOWNLOAD: Client "172.28.0.1", "/home/admin/config1.pdf", 81588 bytes, 165646.11Kbyte/sec
+2024-09-03 22:01:42.476776,2024-09-03T22:01:42.475838426Z Fri Nov 29 11:44:02 2024 [pid 36] CONNECT: Client "172.28.0.1"
+2024-09-03 22:01:42.476776,2024-09-03T22:01:42.475838426Z Fri Nov 29 11:44:07 2024 [pid 35] [ubuntu] OK LOGIN: Client "172.28.0.1"
+2024-09-03 22:01:42.476776,2024-09-03T22:01:42.475838426Z Fri Nov 29 11:44:15 2024 [pid 37] [ubuntu] OK UPLOAD: Client "172.28.0.1", "/home/ubuntu/info.txt", 0.00Kbyte/sec

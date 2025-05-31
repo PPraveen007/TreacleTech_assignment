@@ -1,0 +1,60 @@
+192.168.1.100 - - [30/May/2025:10:15:30 +0000] "GET / HTTP/1.1" 200 1234
+203.0.113.45 - user [30/May/2025:10:16:45 +0000] "POST /api/login HTTP/1.1" 201 567
+10.0.0.5 - admin [30/May/2025:10:17:12 +0000] "GET /dashboard HTTP/1.1" 200 2048
+8.8.8.8 - - [30/May/2025:10:18:00 +0000] "GET /health HTTP/1.1" 200 89
+172.16.0.10 - service [30/May/2025:10:19:30 +0000] "PUT /api/data HTTP/1.1" 204 0
+1.1.1.1 - - [30/May/2025:10:20:15 +0000] "GET /favicon.ico HTTP/1.1" 404 152
+192.168.1.100 - - [30/May/2025:10:21:00 +0000] "GET /images/logo.png HTTP/1.1" 200 4567
+74.125.224.72 - crawler [30/May/2025:10:22:30 +0000] "GET /robots.txt HTTP/1.1" 200 345
+192.168.0.50 - - [30/May/2025:10:23:45 +0000] "POST /contact HTTP/1.1" 302 0
+157.240.22.35 - social [30/May/2025:10:24:12 +0000] "GET /share HTTP/1.1" 200 890
+10.0.0.5 - admin [30/May/2025:10:25:00 +0000] "DELETE /api/temp HTTP/1.1" 200 23
+203.0.113.45 - user [30/May/2025:10:26:30 +0000] "GET /profile HTTP/1.1" 200 1567
+172.31.0.100 - internal [30/May/2025:10:27:15 +0000] "GET /internal/status HTTP/1.1" 200 234
+151.101.193.140 - cdn [30/May/2025:10:28:00 +0000] "GET /assets/style.css HTTP/1.1" 200 8901
+192.168.1.50 - guest [30/May/2025:10:29:30 +0000] "GET /public HTTP/1.1" 200 678
+208.67.222.222 - dns [30/May/2025:10:30:00 +0000] "GET /lookup HTTP/1.1" 200 112
+2025-05-30 10:31:00 INFO Application started, binding to 0.0.0.0:8080
+2025-05-30 10:31:30 WARN Rate limit exceeded for IP 203.0.113.45
+2025-05-30 10:32:00 ERROR Database connection timeout from 192.168.1.200
+2025-05-30 10:32:30 INFO New user registered from 185.199.108.153
+2025-05-30 10:33:00 DEBUG Processing request from 172.16.255.1
+Connection established from 10.0.0.25 on port 443
+Firewall blocked connection from 94.142.241.111 to port 22
+DHCP lease assigned 192.168.1.45 to MAC aa:bb:cc:dd:ee:ff
+DNS query from 8.8.4.4 for domain example.com
+Mail server connection from 209.85.128.26 successful
+VPN client 172.20.0.15 connected successfully
+Backup completed, notification sent to 192.168.100.5
+Load balancer forwarding to 10.10.10.10
+API call rate limited from 216.58.194.174
+Database sync with 172.31.16.200 completed
+Cache miss, fetching from 151.101.65.140
+Security scan initiated from 192.168.2.100
+File upload from 203.0.113.100 completed
+Session timeout for user at 10.0.5.50
+Monitoring alert sent to 172.16.0.200
+CDN cache hit from 104.16.132.229
+Payment gateway response from 66.249.79.104
+Invalid login attempt from 45.55.39.79
+Service restart notification to 192.168.50.10
+Network diagnostic ping to 8.8.8.8 successful
+Load test traffic from 172.31.32.100
+Analytics data pushed to 34.102.136.180
+Scheduled task executed on 10.1.1.1
+Error report sent from 192.168.3.75
+User session created for 203.0.113.200
+File sync completed with 172.20.16.50
+Database backup to 10.0.10.100 successful
+Certificate renewal for 185.199.111.153
+Health check passed for 172.16.100.25
+Log rotation completed on 192.168.4.200
+Service discovery updated 10.2.2.2
+API response cached from 151.101.1.140
+Email notification sent to user at 203.0.113.75
+Network latency test to 8.8.4.4 completed
+Security audit log from 172.31.48.100
+File compression task from 192.168.5.150
+Database index rebuild on 10.0.20.200
+CDN purge request for 104.16.133.229
+Backup verification from 172.16.200.50

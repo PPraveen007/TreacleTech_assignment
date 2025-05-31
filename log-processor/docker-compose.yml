@@ -1,0 +1,43 @@
+services:
+  mongodb:
+    image: mongo
+    container_name: log_processor_mongodb
+    restart: always
+    ports:
+      - "27017:27017"
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: admin
+      MONGO_INITDB_ROOT_PASSWORD: password123
+      MONGO_INITDB_DATABASE: ip_database
+    volumes:
+      - mongodb_data:/data/db
+    networks:
+      - log_processor_network
+    healthcheck:
+      test: ["CMD", "mongosh", "--quiet", "--eval", "db.runCommand('ping').ok", "--host", "localhost:27017", "-u", "admin", "-p", "password123", "--authenticationDatabase", "admin"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  log_processor:
+    build: .
+    container_name: log_processor_app
+    depends_on:
+      mongodb:
+        condition: service_healthy
+    volumes:
+      - ./logs:/app/logs:ro  # Mount logs directory as read-only
+    environment:
+    #here instead of test.log we can use a different log file name like sample.log also change in the Dockerfile
+      - LOG_FILE_PATH=/app/logs/test.log
+      - MONGODB_URI=mongodb://admin:password123@mongodb:27017/ip_database?authSource=admin
+    networks:
+      - log_processor_network
+    restart: "no"  # Don't restart after completion
+
+volumes:
+  mongodb_data:
+
+networks:
+  log_processor_network:
+    driver: bridge
